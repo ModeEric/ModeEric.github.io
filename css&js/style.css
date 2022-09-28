@@ -112,11 +112,11 @@ header.shadow {
 }
 .home-img {
   order: 3;
-  width: 100px;
-  min-width: 50px;
+
 }
 .home-img img {
- border-radius: 100%;
+ width: 100px;
+ min-width: 50px;
 }
 
 .home-text span {
