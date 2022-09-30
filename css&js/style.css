@@ -115,7 +115,7 @@ header.shadow {
 
 }
 .home-img img {
- width: 10px;
+ width: 75%;
 }
 
 .home-text span {
@@ -282,7 +282,7 @@ h1, .font-weight-bolder {
     padding:0px 10px;
   }
   .home-img img {
-    width: 1000px;
+    width: 75%;
     margin-top:30px;
   }
   .home-img{
