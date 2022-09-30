@@ -282,7 +282,7 @@ h1, .font-weight-bolder {
     padding:0px 10px;
   }
   .home-img img {
-    width: 300px;
+    width: 500px;
     margin-top:30px;
   }
   .home-img{
@@ -301,7 +301,7 @@ h1, .font-weight-bolder {
   }
   header .navbar {
     position: absolute;
-    top: -500px;
+    top: 500px;
     left: 0;
     right: 0;
     display: flex;
