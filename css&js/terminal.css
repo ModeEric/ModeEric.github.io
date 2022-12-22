@@ -10,10 +10,12 @@ html{
     position: relative;
     width:100%;
     height:100%;
-    background-color: green;
+    background-color: rgb(42, 42, 42);
     min-height: 100%; 
     min-height: 100vh;
 }
+
+
 
 #scan, #bezel {
     position: absolute;
@@ -27,4 +29,9 @@ html{
     font-size:40px;
     color:rgb(159,248,25);
     position: absolute;
+    left:5%;
+    top:5%;
+}
+#cursor{
+    font-size: 40px;
 }
