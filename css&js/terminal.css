@@ -26,12 +26,16 @@ html{
 }
 #content {
     font-family: 'VT323',"Georgia";
-    font-size:40px;
-    color:rgb(159,248,25);
+    font-size:30px;
+    color:rgb(128,195,132);
     position: absolute;
     left:5%;
     top:5%;
+    right:5%;
+    bottom:5%;
+    text-shadow: 3px 3px rgb(77,115,76);
+
 }
 #cursor{
-    font-size: 40px;
+    font-size: 30px;
 }

@@ -6,27 +6,16 @@
         <title>Terminal</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="css&js/terminal.css">
-        <script src="css&js/main.js"></script>
+        <script src="css&js/terminalmain.js"></script>
+
     </head>
     <body>
         <div id="screen">
             <img src="img/scanlines.png" id="scan">
             <img src="img/bezel.png" id="bezel">
             <div id="content"> 
-                <p>Text here. asdkjbhuyfshd hji fjsd ais j sbgh sfj d sjzjfsbfd     <span id="cursor">|</span>
-                    <script>
-                        var cursor = true;
-                        var speed = 500;
-                        setInterval(() => {
-                          if(cursor) {
-                            document.getElementById('cursor').style.opacity = 0;
-                            cursor = false;
-                          }else {
-                            document.getElementById('cursor').style.opacity = 1;
-                            cursor = true;
-                          }
-                        }, speed);
-                    </script>
+                <p><span id="textcontent"></span><span id="cursor">▐</span>
+
                 </p>
             </div>
             </div>
