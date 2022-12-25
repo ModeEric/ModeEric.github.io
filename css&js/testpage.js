@@ -2,37 +2,59 @@ function tohex(num){
     var hex = num.toString(16);
     return hex.length == 1 ? "0" + hex : hex;
 }
-function drawhelix() {
-var pointSize = 1; // Change according to the size of the point.
-var canvas = document.getElementById("canvas");
+function drawLine(ctx, begin, end, stroke = 'black', width = 1) {
+    if (stroke) {
+        ctx.strokeStyle = stroke;
+    }
+
+    if (width) {
+        ctx.lineWidth = width;
+    }
+
+    ctx.beginPath();
+    ctx.moveTo(...begin);
+    ctx.lineTo(...end);
+    ctx.stroke();
+}
+function drawcircle(num) {
 
 canvas.width  = window.innerWidth;
 canvas.height = window.innerHeight;
 var ctx = document.getElementById("canvas").getContext("2d");
+ctx.fillStyle = "black";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+ctx.fillStyle = "#0047AB";
+ctx.fillRect(600,500, 200, 200);
+num=num+1;
+for(var i=0;i<num+1;i++){ 
+    drawLine(ctx,[600,600+100*(i)/num],[600+100*(i)/num,700]);
+    drawLine(ctx,[800,600+100*(i)/num],[800-100*(i)/num,700]);
+    drawLine(ctx,[600,600-100*(i)/num],[600+100*(i)/num,500]);
+    drawLine(ctx,[800,600-100*(i)/num],[800-100*(i)/num,500]);
 
-ctx.fillStyle = "#092803"; 
-var x=0;
-var y=0;
-
-randomstart = (Math.random())*Math.PI*2;
-
-for(var j = 0; j < 10; j++) {
-    randomstart=randomstart+1*Math.PI/5;
-
-    var currnum=0;
-
-for(var i = 0; i < 25000; i++) {
-
-
-ctx.beginPath(); //Start path
-x = 200*Math.sin(i/1000-50+randomstart)+window.innerWidth/2+Math.sqrt((Math.random()-Math.random())*i/4);
-y = i/20; 
-
-ctx.arc(x,y, pointSize, 0, Math.PI * 2, true); // Draw a point using the arc function of the canvas with a point structure.
-ctx.fill();
-}
 }
 console.log("DONE");
 }
+function drawcirclemany(){
+    drawcircle(20);
+}
 
-window.addEventListener("DOMContentLoaded", drawhelix);
+function drawcircleanimate(){
+    let start = Date.now(); // remember start time
+
+let timer = setInterval(function() {
+  // how much time passed from the start?
+  let timePassed = Date.now() - start;
+
+  if (timePassed >= 1000) {
+    clearInterval(timer); // finish the animation after 2 seconds
+    return;
+  }
+
+  // draw the animation at the moment timePassed
+  drawcircle(timePassed/50+3);
+
+}, 10);
+}
+
+window.addEventListener("DOMContentLoaded", drawcircleanimate);
