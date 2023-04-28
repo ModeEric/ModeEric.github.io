@@ -1,42 +1,63 @@
 /* Add your CSS styles here */
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  
-  header {
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-  }
-  
-  section {
-    padding: 20px;
-  }
-  
-  footer {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-  }
-  
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+#about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+#about img {
+  width: 150px;
+  height: 150px;
+}
+
+#about .text {
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+#description {
+  text-align: center;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
