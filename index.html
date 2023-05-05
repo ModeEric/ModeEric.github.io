@@ -5,23 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <script defer src="scripts.js"></script>
+  <script defer src="projects.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
   <title>Eric Modesitt's Personal Portfolio</title>
 </head>
 <body>
+  <main>
+    <nav>
+      <ol>
+        <li><a href="#about">About</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ol>
+    </nav>
+    
   <header>
     <h1>Eric Modesitt</h1>
+
   </header>
-  <nav>
-    <!-- Add your navigation content here -->
-  </nav>
-  <section id="about">
+
+  <section id="about" data-aos="fade-up">
     <img src="./media/meImage.png" alt="Your Name's Photo">
     <div class="text">
       <p>Hi, I'm Eric! As a highly-motivated computer science student at the University of Illinois Urbana-Champaign (UIUC), I have a passion for data, artificial intelligence, and cutting-edge technology. My interests span across various aspects of technology, constantly driving me to learn and innovate.
       </p>
     </div>
   </section>
-  <section id="description">
+  <section id="description" data-aos="fade-up">
     <p> My passion for technology stems from my curiosity to explore the limitless possibilities it offers and my drive to create innovative solutions that make a positive impact on the world.
 
       My academic journey has provided me with the opportunity to gain hands-on experience in various projects, where I have honed my skills in programming languages, data analysis, and machine learning algorithms. As an active member of the UIUC tech community, I enjoy participating in hackathons and collaborating with like-minded individuals to tackle complex problems.
@@ -31,12 +43,52 @@
       In the future, I aspire to contribute to the field of artificial intelligence and help develop groundbreaking solutions that empower individuals, businesses, and society as a whole. With my unique blend of creativity, technical expertise, and unwavering dedication, I am confident in my ability to make a lasting impact in the world of technology.
       </p>
   </section>
-  <section id="skills">
-    <!-- Add your skills content here -->
+  <section id="publications" data-aos="fade-up">
+    <h2>Publications</h2>
+    <ul>
+      <li><a href="https://link-to-publication-1.com" target="_blank">Publication 1</a></li>
+      <li><a href="https://link-to-publication-2.com" target="_blank">Publication 2</a></li>
+      <li><a href="https://link-to-publication-3.com" target="_blank">Publication 3</a></li>
+      <!-- Add more publications as needed -->
+    </ul>
   </section>
-  <section id="projects">
-    <!-- Add your projects content here -->
-  </section>
+<!-- ... -->
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <ul>
+    <li id="software-development-listitem">
+      <a href="#" onclick="displaySubsection('software-development')">Software Development</a>
+    </li>
+    <li id="web-scraping-listitem">
+      <a href="#" onclick="displaySubsection('web-scraping')">Web Scraping</a>
+    </li>
+    <li id="data-analysis-listitem">
+      <a href="#" onclick="displaySubsection('data-analysis')">Data Analysis</a>
+    </li>
+    <li id="ai-listitem">
+      <a href="#" onclick="displaySubsection('ai')">AI</a>
+    </li>
+  </ul>
+</section>
+<!-- ... -->
+
+
+<section id="projects">
+  <h2>Projects</h2>
+  <input type="text" id="search-projects" placeholder="Search projects by skills..." oninput="filterProjects()">
+  <div id="projects-container">
+    <!-- Add your project cards here -->
+  </div>
+  <!-- Modal template -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3 id="project-modal-title"></h3>
+      <img id="project-modal-image" src="" alt="">
+      <p id="project-modal-description"></p>
+    </div>
+  </div>
+</section>
   <section id="experience">
     <!-- Add your experience content here -->
   </section>
@@ -46,5 +98,7 @@
   <footer>
     <!-- Add your footer content here -->
   </footer>
+</main>
+
 </body>
 </html>
