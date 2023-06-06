@@ -1,11 +1,12 @@
 const projects = [
-    {
-      title: 'Project 1',
-      image: 'path/to/image1.jpg',
-      description: 'Short description of project 1',
-      longDescription: 'Long description of project 1',
-      skills: ['Python', 'Web Scraping']
-    },
+  {
+    title: 'Robotic Hand Control using MediaPipe',
+    image: 'ModeEric.github.io/media/robotichandcode.jpeg',
+    description: 'A system that leverages MediaPipe and OpenCV to control a robotic hand.',
+    longDescription: 'The Robotic Hand Control project is a Python-based project that uses the MediaPipe framework and OpenCV to detect hand gestures and use them to control a robotic hand. The project includes several Python scripts. The "test.py" script uses MediaPipe and OpenCV to identify and draw various parts of the hand on a video feed. The "coords.py" script creates an array of coordinates for each part of the hand. The "clenched.py" script provides values indicating how clenched each finger is. The project was developed as part of the EOH 2022 Robotic Hand Project. Potential applications could include virtual reality, remote control of robotic devices, and more.',
+    skills: ['Python', 'OpenCV', 'MediaPipe', 'Robotics']
+  }
+  
     // Add more projects here
   ];
   
