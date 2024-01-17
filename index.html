@@ -1,78 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="scripts.js"></script>
-  <script defer src="projects.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
-  <title>Eric Modesitt's Personal Portfolio</title>
+    <title>Eric Modesitt's Personal Portfolio</title>
 </head>
 <body>
-  <main>
-    <nav>
-      <ol>
-        <li><a href="#about">About</a></li>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#skills">Skills</a></li>
-      </ol>
-    </nav>
-    
-  <header>
-    <h1>Eric Modesitt</h1>
+    <main>
+        <nav>
+            <ol>
+                <li><a href="projects.html">Projects</a></li> <!-- Link to projects page -->
+            </ol>
+        </nav>
+        
+        <header>
+            <h1>Eric Modesitt</h1>
+        </header>
 
-  </header>
+        <section id="about" data-aos="fade-up">
+            <img src="./media/meImage.png" alt="Eric Modesitt's Photo">
+            <div class="text">
+                <p>Hi, I'm Eric! A Computer Science student at UIUC with a passion for software engineering and AI, always driven to learn and innovate.</p>
+            </div>
+        </section>
 
-  <section id="about" data-aos="fade-up">
-    <img src="./media/meImage.png" alt="Your Name's Photo">
-    <div class="text">
-      <p>Hi, I'm Eric! A Computer Science student at UIUC with a passion for software engineering and AI, always driven to learn and innovate.</p>
-    </div>
-</section>
-<section id="description" data-aos="fade-up">
-    <p> Fascinated by technology, I enjoy exploring its potential and creating impactful solutions. My experience spans programming, data analysis, and machine learning, often enriched through hackathons and project collaborations. 
-      As a  tech enthusiast, I keep up with industry trends while exploring varied domains, from robotics to cybersecurity. 
-</p>
-</section>
+        <section id="description" data-aos="fade-up">
+            <p>Fascinated by technology, I enjoy exploring its potential and creating impactful solutions. My experience spans programming, data analysis, and machine learning, often enriched through hackathons and project collaborations. As a tech enthusiast, I keep up with industry trends while exploring varied domains, from robotics to cybersecurity.</p>
+        </section>
 
-
-
-
-  <section id="publications" data-aos="fade-up">
-    <h2>Publications</h2>
-    <ul>
-      <li><a href="https://arxiv.org/abs/2304.06471" target="_blank">Two Heads are Better than One: A Bio-inspired Method for Improving Classification on EEG-ET Data (Accepted: HCI 2023)</a></li>
-      <li>ViT2EEG: Leveraging Hybrid Pretrained Vision Transformers for EEG Data (Accepted KDD) (Link to be updated)</a></li>
-
-    </ul>
+        <section id="publications" data-aos="fade-up">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://arxiv.org/abs/2304.06471" target="_blank">Two Heads are Better than One: A Bio-inspired Method for Improving Classification on EEG-ET Data (Accepted: HCI 2023)</a></li>
+                <li>ViT2EEG: Leveraging Hybrid Pretrained Vision Transformers
+                  for EEG Data (Accepted at KDD) (Link to be updated)</li>
+                </ul>
+                </section>
+                    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <input type="text" id="search-projects" placeholder="Search projects by skills..." oninput="filterProjects()">
+      <div id="projects-container">
+          <!-- Projects will be dynamically loaded here -->
+      </div>
+      <div id="project-modal" class="modal">
+          <div class="modal-content">
+              <span class="close-modal">&times;</span>
+              <h3 id="project-modal-title"></h3>
+              <img id="project-modal-image" src="" alt="">
+              <p id="project-modal-description"></p>
+          </div>
+      </div>
   </section>
-<!-- ... -->
 
+  <!-- Additional sections (experience, contact, etc.) can be added here -->
 
-<section id="projects">
-  <h2>Projects</h2>
-  <input type="text" id="search-projects" placeholder="Search projects by skills..." oninput="filterProjects()">
-  <div id="projects-container">
-  </div>
-  <div id="project-modal" class="modal">
-    <div class="modal-content">
-      <span class="close-modal">&times;</span>
-      <h3 id="project-modal-title"></h3>
-      <img id="project-modal-image" src="" alt="">
-      <p id="project-modal-description"></p>
-    </div>
-  </div>
-</section>
-  <section id="experience">
-  </section>
-  <section id="contact">
-  </section>
   <footer>
+      <!-- Footer content -->
   </footer>
 </main>
-
 </body>
 </html>
