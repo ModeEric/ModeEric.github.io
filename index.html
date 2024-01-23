@@ -14,54 +14,49 @@
         <nav>
             <ol>
                 <li><a href="projects.html">Projects</a></li> <!-- Link to projects page -->
+                <li><a href="skills.html">Technical Skills</a></li> <!-- Link to skills page -->
+                <li><a href="key_projects.html">Key Projects</a></li> <!-- Link to key projects page -->
             </ol>
         </nav>
         
         <header>
-            <h1>Eric Modesitt</h1>
+            <div class="header-content">
+                <img src="./media/headshot.png" alt="Eric Modesitt" class="headshot"> <!-- Headshot Image -->
+                <div>
+                    <h1>Eric Modesitt</h1>
+                    <p>Computer Science Student & Researcher | University of Illinois at Urbana-Champaign</p>
+                </div>
+            </div>
         </header>
 
-        <section id="about" data-aos="fade-up">
-            <img src="./media/meImage.png" alt="Eric Modesitt's Photo">
-            <div class="text">
-                <p>Hi, I'm Eric! A Computer Science student at UIUC with a passion for software engineering and AI, always driven to learn and innovate.</p>
-            </div>
+        <section id="education">
+            <h2>Education</h2>
+            <p>University of Illinois at Urbana-Champaign, Bachelors and Masters of Science in Computer Science</p>
+            <p>Expected Graduation Date: May 2025</p>
         </section>
 
-        <section id="description" data-aos="fade-up">
-            <p>Fascinated by technology, I enjoy exploring its potential and creating impactful solutions. My experience spans programming, data analysis, and machine learning, often enriched through hackathons and project collaborations. As a tech enthusiast, I keep up with industry trends while exploring varied domains, from robotics to cybersecurity.</p>
-        </section>
-
-        <section id="publications" data-aos="fade-up">
-            <h2>Publications</h2>
-            <ul>
-                <li><a href="https://arxiv.org/abs/2304.06471" target="_blank">Two Heads are Better than One: A Bio-inspired Method for Improving Classification on EEG-ET Data (Accepted: HCI 2023)</a></li>
-                <li>ViT2EEG: Leveraging Hybrid Pretrained Vision Transformers
-                  for EEG Data (Accepted at KDD) (Link to be updated)</li>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>National Center for Supercomputing Applications</h3>
+                <p>Student Researcher Intern (Aug. 2023 - Present)</p>
+                <ul>
+                    <li>Pioneering GPT-based documentation search tool for Astropy.</li>
+                    <li>Implemented a semantic search engine and a Retrieval Augmented Generation model.</li>
                 </ul>
-                </section>
-                    <!-- Projects Section -->
-    <section id="projects" data-aos="fade-up">
-      <h2>Projects</h2>
-      <input type="text" id="search-projects" placeholder="Search projects by skills..." oninput="filterProjects()">
-      <div id="projects-container">
-          <!-- Projects will be dynamically loaded here -->
-      </div>
-      <div id="project-modal" class="modal">
-          <div class="modal-content">
-              <span class="close-modal">&times;</span>
-              <h3 id="project-modal-title"></h3>
-              <img id="project-modal-image" src="" alt="">
-              <p id="project-modal-description"></p>
-          </div>
-      </div>
-  </section>
+            </div>
+            <!-- Additional experience items here -->
+        </section>
 
-  <!-- Additional sections (experience, contact, etc.) can be added here -->
 
-  <footer>
-      <!-- Footer content -->
-  </footer>
-</main>
+        <footer>
+            <p>Contact: ericjm4@illinois.edu | 646-647-7113</p>
+            <p>Location: Urbana, IL</p>
+        </footer>
+    </main>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
