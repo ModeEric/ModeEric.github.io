@@ -3,60 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
-    <title>Eric Modesitt's Personal Portfolio</title>
+    <title>Eric Modesitt - Machine Learning Engineer & Researcher</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
+    <header>
         <nav>
-            <ol>
-                <li><a href="projects.html">Projects</a></li> <!-- Link to projects page -->
-                <li><a href="skills.html">Technical Skills</a></li> <!-- Link to skills page -->
-                <li><a href="key_projects.html">Key Projects</a></li> <!-- Link to key projects page -->
-            </ol>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-        
-        <header>
-            <div class="header-content">
-                <img src="./media/headshot.png" alt="Eric Modesitt" class="headshot"> <!-- Headshot Image -->
-                <div>
-                    <h1>Eric Modesitt</h1>
-                    <p>Computer Science Student & Researcher | University of Illinois at Urbana-Champaign</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Eric Modesitt</h1>
+                <h2>Machine Learning Engineer & Researcher</h2>
+                <p>Innovating at the intersection of AI, neuroscience, and software engineering</p>
+                <a href="contact.html" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section class="about-summary">
+            <h2>About Me</h2>
+            <p>I'm a passionate Machine Learning Engineer and Researcher, currently pursuing my M.S. in Computer Science with a Data Science specialization at the University of Illinois at Urbana-Champaign. With a strong foundation in AI, neuroscience, and software engineering, I strive to develop innovative solutions that push the boundaries of what's possible in machine learning and data analysis.</p>
+            <a href="about.html" class="learn-more">Learn More About Me</a>
+        </section>
+
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>ViT2EEG</h3>
+                    <p>Hybrid Pretrained Transformers for EEG Data Analysis</p>
+                    <a href="projects.html#vit2eeg" class="learn-more">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>GPT-based Documentation Search</h3>
+                    <p>Enhancing Astropy package accessibility with AI</p>
+                    <a href="projects.html#astropy-search" class="learn-more">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>LLM Training Pipeline</h3>
+                    <p>Domain-specific language model training on billion-scale datasets</p>
+                    <a href="projects.html#llm-pipeline" class="learn-more">Learn More</a>
                 </div>
             </div>
-        </header>
-
-        <section id="education">
-            <h2>Education</h2>
-            <p>University of Illinois at Urbana-Champaign, Bachelors and Masters of Science in Computer Science</p>
-            <p>Expected Graduation Date: May 2025</p>
         </section>
 
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <div class="experience-item">
-                <h3>National Center for Supercomputing Applications</h3>
-                <p>Student Researcher Intern (Aug. 2023 - Present)</p>
-                <ul>
-                    <li>Pioneering GPT-based documentation search tool for Astropy.</li>
-                    <li>Implemented a semantic search engine and a Retrieval Augmented Generation model.</li>
-                </ul>
+        <section class="skills">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <ul>
+                        <li>TensorFlow</li>
+                        <li>PyTorch</li>
+                        <li>Scikit-learn</li>
+                        <li>Natural Language Processing</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Science & Analysis</h3>
+                    <ul>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Jupyter</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
             </div>
-            <!-- Additional experience items here -->
         </section>
 
+        <section class="experience-summary">
+            <h2>Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <h3>Capital One</h3>
+                    <p>Machine Learning Engineer Intern</p>
+                    <p class="date">Jun. 2024 - Present</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>NCSA</h3>
+                    <p>Student Researcher Intern</p>
+                    <p class="date">Aug. 2023 - Present</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Mr. Cooper</h3>
+                    <p>Machine Learning Engineer Intern</p>
+                    <p class="date">Jun. 2023 - Aug. 2023</p>
+                </div>
+            </div>
+            <a href="experience.html" class="learn-more">View Full Experience</a>
+        </section>
 
-        <footer>
-            <p>Contact: ericjm4@illinois.edu | 646-647-7113</p>
-            <p>Location: Urbana, IL</p>
-        </footer>
+        <section class="cta">
+            <h2>Let's Connect!</h2>
+            <p>Interested in collaborating or learning more about my work?</p>
+            <a href="contact.html" class="cta-button">Get in Touch</a>
+        </section>
     </main>
 
-    <script>
-        AOS.init();
-    </script>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Eric Modesitt. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
