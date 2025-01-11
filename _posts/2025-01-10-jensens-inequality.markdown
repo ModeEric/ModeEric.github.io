@@ -88,5 +88,5 @@ Exponentiating both sides gives the AM-GM inequality.
 
 Jensen’s Inequality is a deceptively simple yet profoundly powerful tool in mathematics. Its versatility makes it indispensable across disciplines, from machine learning to economics. By understanding its intuition and practical uses, you unlock a deeper appreciation for the beauty and utility of convexity in mathematical analysis.
 
-Stay tuned for future posts exploring its role in diffusion models and other advanced topics!
+Stay tuned for future posts exploring its role in diffusion models and other advanced topics!!!
 
