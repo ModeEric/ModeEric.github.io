@@ -1,92 +1,134 @@
 ---
-layout: default
+layout: post
 title: "Mathematical Intuition of Jensen's Inequality"
 date: 2025-01-10
+categories: [Mathematics, Probability, Analysis]
+tags: [Jensen's Inequality, Convexity, Diffusion Models]
 ---
 
-## Motivation
+# **Mathematical Intuition of Jensen's Inequality**
 
-Jensen's Inequality is a cornerstone of mathematical analysis and probability theory, with wide-ranging applications in fields such as information theory, statistical physics, and machine learning. Personally, my interest in Jensen's Inequality stems from its use in the derivation of the training objective for the reverse process in the original Diffusion paper ([link to paper](https://arxiv.org/pdf/2006.11239)). Fully understanding this concept is key to grasping the mathematical intuition behind diffusion models. As part of a series on diffusion processes, this post aims to break down Jensen's Inequality and its intuition.
+Jensen's Inequality is a cornerstone of mathematical analysis and probability theory, with wide-ranging applications in fields like **information theory**, **statistical physics**, and **machine learning**. 
 
-If you’re motivated by practical applications, the Wikipedia entry on Jensen’s Inequality provides an extensive list of applications ([link](https://en.wikipedia.org/wiki/Jensen%27s_inequality#Applications_and_special_cases)), ranging from risk aversion in economics to variational Bayesian methods.
+This post dives into the intuition behind Jensen's Inequality. My interest in this inequality stems from its pivotal role in understanding **diffusion models**, specifically in deriving the training objective for the reverse process in the original Diffusion paper ([paper link](https://arxiv.org/pdf/2006.11239)). 
+
+For a broader perspective, check out the **Wikipedia entry on Jensen’s Inequality** ([link](https://en.wikipedia.org/wiki/Jensen%27s_inequality#Applications_and_special_cases)), which details its applications, including **risk aversion**, **variational Bayesian methods**, and more.
 
 ---
 
-## Definition
+## **Definition**
 
-Jensen's Inequality captures the relationship between a convex function and the expectation of a random variable. For a convex function \( \phi \) and a set of weights \( \{a_i\} \) satisfying \( a_i \geq 0 \) and \( \sum a_i = 1 \), the finite form of Jensen’s Inequality is:
+Jensen's Inequality relates a convex function to the expectation of a random variable. 
+
+For a convex function \( \phi \) and weights \( \{a_i\} \) such that \( a_i \geq 0 \) and \( \sum a_i = 1 \), the finite form is:
 
 \[
 \phi \left( \sum_{i=1}^n a_i x_i \right) \leq \sum_{i=1}^n a_i \phi(x_i).
 \]
 
-If \( \phi \) is concave, the inequality is reversed. The equality holds if and only if \( x_1 = x_2 = \dots = x_n \) or \( \phi \) is linear on the interval containing \( \{x_i\} \).
+- For **concave functions**, the inequality reverses.  
+- **Equality** occurs when \( x_1 = x_2 = \cdots = x_n \) or \( \phi \) is linear over \( \{x_i\} \).
 
 ---
 
-## Intuition Behind Jensen’s Inequality
+## **Intuition**
 
-To develop an intuition, think of a convex function as one that “stretches” values away from its average. For example, consider a probability distribution of a random variable \( X \) and a convex function \( \phi \):
+Think of a **convex function** as one that "stretches" values away from their average. Let \( X \) be a random variable and \( \phi \) a convex function:
 
-- Compute \( \mathbb{E}[X] \), the mean of \( X \).
-- Map this mean through \( \phi \), giving \( \phi(\mathbb{E}[X]) \).
-- Compare it to the expected value of the transformed variable, \( \mathbb{E}[\phi(X)] \).
+1. **Compute \( \mathbb{E}[X] \):** the mean of \( X \).  
+2. **Transform the mean:** \( \phi(\mathbb{E}[X]) \).  
+3. **Compare expectations:** \( \mathbb{E}[\phi(X)] \) vs. \( \phi(\mathbb{E}[X]) \).  
 
-Jensen’s Inequality tells us that \( \phi(\mathbb{E}[X]) \leq \mathbb{E}[\phi(X)] \). The intuition is that the convex function amplifies deviations of \( X \) from its mean, making \( \mathbb{E}[\phi(X)] \) larger than \( \phi(\mathbb{E}[X]) \).
+Jensen's Inequality states:
+\[
+\phi(\mathbb{E}[X]) \leq \mathbb{E}[\phi(X)].
+\]
 
----
-
-## Graphical Representation
-
-Imagine a curve \( \phi(x) \) that is convex. For any two points \( x_1 \) and \( x_2 \), the secant line connecting \( (x_1, \phi(x_1)) \) and \( (x_2, \phi(x_2)) \) lies above the curve. Weighted averages of \( x_1 \) and \( x_2 \) map to points on this secant line when passed through \( \phi \), while their convex combination maps below or on the line when evaluated directly. This graphical property underpins the inequality.
-
----
-
-## Applications
-
-### 1. **Probability and Statistics**
-   - In probability, Jensen’s Inequality applies to expectations. For a random variable \( X \) and a convex function \( \phi \):
-     \[
-     \phi(\mathbb{E}[X]) \leq \mathbb{E}[\phi(X)].
-     \]
-     This property is foundational in variational Bayesian methods, where the inequality helps bound difficult-to-compute integrals.
-
-### 2. **Information Theory**
-   - Applying \( \phi(x) = -\log(x) \) to probability distributions leads to Gibbs’ Inequality, which underlies concepts like entropy and Kullback-Leibler divergence.
-
-### 3. **Statistical Physics**
-   - For \( \phi(x) = e^x \), Jensen’s Inequality gives:
-     \[
-     e^{\mathbb{E}[X]} \leq \mathbb{E}[e^X].
-     \]
-     This is a critical result in understanding partition functions and free energy.
-
-### 4. **Risk Aversion in Economics**
-   - Concave utility functions \( u(x) \) model risk aversion. Jensen’s Inequality ensures that a risk-averse individual prefers the expected value of a gamble over the gamble itself:
-     \[
-     u(\mathbb{E}[X]) \geq \mathbb{E}[u(X)].
-     \]
+- The convex function amplifies deviations of \( X \) from its mean.  
+- Thus, \( \mathbb{E}[\phi(X)] \), which aggregates these amplified values, is larger.
 
 ---
 
-## Example: Arithmetic-Mean/Geometric-Mean Inequality
+## **Graphical Insight**
 
-The AM-GM inequality states that for positive numbers \( x_1, x_2, \dots, x_n \):
+Visualize a convex curve \( \phi(x) \):
+
+- For points \( x_1 \) and \( x_2 \), the **secant line** connecting \( (\phi(x_1), \phi(x_2)) \) lies above the curve.  
+- Weighted averages of \( x_1 \) and \( x_2 \) (convex combinations) map **below** this secant line when evaluated through \( \phi \).
+
+This geometric property explains why \( \phi(\mathbb{E}[X]) \leq \mathbb{E}[\phi(X)] \).
+
+---
+
+## **Applications**
+
+### **1. Probability and Statistics**
+
+For a random variable \( X \) and convex \( \phi \):
+\[
+\phi(\mathbb{E}[X]) \leq \mathbb{E}[\phi(X)].
+\]
+
+- **Variational Bayesian methods:** This bounds difficult-to-compute integrals.  
+
+---
+
+### **2. Information Theory**
+
+Applying \( \phi(x) = -\log(x) \) leads to **Gibbs' Inequality**:
+\[
+\mathbb{E}[-\log(X)] \geq -\log(\mathbb{E}[X]).
+\]
+
+This is fundamental to **entropy** and **Kullback-Leibler divergence**.
+
+---
+
+### **3. Statistical Physics**
+
+For \( \phi(x) = e^x \):
+\[
+e^{\mathbb{E}[X]} \leq \mathbb{E}[e^X].
+\]
+
+This is crucial for **partition functions** and **free energy** computations.
+
+---
+
+### **4. Economics: Risk Aversion**
+
+For a **concave utility function** \( u(x) \):
+\[
+u(\mathbb{E}[X]) \geq \mathbb{E}[u(X)].
+\]
+
+This models **risk-averse behavior**: preferring the expected value of a gamble over the gamble itself.
+
+---
+
+## **Example: AM-GM Inequality**
+
+The **Arithmetic-Mean/Geometric-Mean (AM-GM) inequality** states:
 \[
 \frac{x_1 + x_2 + \dots + x_n}{n} \geq \sqrt[n]{x_1 x_2 \dots x_n}.
 \]
 
-This follows directly from Jensen’s Inequality with \( \phi(x) = \log(x) \), a concave function. Applying it yields:
+### Proof via Jensen's Inequality:
+
+- Let \( \phi(x) = \log(x) \) (concave function).  
+- Jensen's Inequality yields:
 \[
 \log \left( \frac{x_1 + x_2 + \dots + x_n}{n} \right) \geq \frac{1}{n} \sum_{i=1}^n \log(x_i).
 \]
-Exponentiating both sides gives the AM-GM inequality.
+- Exponentiating gives:
+\[
+\frac{x_1 + x_2 + \dots + x_n}{n} \geq \sqrt[n]{x_1 x_2 \dots x_n}.
+\]
 
 ---
 
-## Closing Thoughts
+## **Closing Thoughts**
 
-Jensen’s Inequality is a deceptively simple yet profoundly powerful tool in mathematics. Its versatility makes it indispensable across disciplines, from machine learning to economics. By understanding its intuition and practical uses, you unlock a deeper appreciation for the beauty and utility of convexity in mathematical analysis.
+Jensen’s Inequality is simple yet powerful, serving as a bridge between **convexity** and real-world phenomena. Its applications span disciplines, making it an indispensable tool for mathematicians, data scientists, and economists.
 
-Stay tuned for future posts exploring its role in diffusion models and other advanced topics!!!
-
+Stay tuned for **future posts** exploring its role in **diffusion models** and other advanced topics!!
