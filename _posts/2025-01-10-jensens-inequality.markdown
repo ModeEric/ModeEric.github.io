@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Mathematical Intuition of Jensen's Inequality"
 date: 2025-01-10
 ---
