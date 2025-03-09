@@ -17,7 +17,7 @@ I'm currently completing my Master's in Computer Science at UIUC. My previous re
 
 ## Blog Highlights
 Here's what I've been writing about:  
-- [How to Learn AI Best]({% post_url 2024-03-20-how-to-learn-ai %}) – A comprehensive guide to getting started with AI
+- [How to Learn AI Best]({% post_url 2025-03-08-how-to-learn-ai-scratch %}) – A comprehensive guide to getting started with AI
   
 Check out the [Blog](/blog) page for more!
 
