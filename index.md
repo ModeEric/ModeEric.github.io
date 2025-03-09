@@ -3,8 +3,6 @@ layout: home
 title: "Eric Modesitt"
 ---
 
-# Eric Modesitt
-
 Hi, I’m Eric Modesitt, a tech enthusiast, aspiring researcher, and developer. Welcome to my personal site, where I share my projects, thoughts on technology, and updates on my journey toward a PhD. My interests lie in AI/NLP at the moment, and I’m passionate about solving real-world problems through code and research.
 
 ## About Me
