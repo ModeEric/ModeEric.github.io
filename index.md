@@ -3,26 +3,99 @@ layout: home
 title: "Eric Modesitt"
 ---
 
-Hi, I'm Eric Modesitt, a tech enthusiast, aspiring researcher, and developer. Welcome to my personal site, where I share my projects, thoughts on technology, and updates on my journey toward a PhD. My interests lie in AI/NLP at the moment, and I'm passionate about solving real-world problems through code and research.
+<div class="hero-section" style="text-align: center; padding: 60px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-bottom: 40px; border-radius: 10px;">
+  <img src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" style="width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; margin-bottom: 20px; object-fit: cover;">
+  <h1 style="font-size: 2.5em; margin-bottom: 10px; font-weight: 300;">Eric Modesitt</h1>
+  <p style="font-size: 1.3em; margin-bottom: 30px; font-weight: 300;">AI Researcher & Engineer bridging academia and industry</p>
+  <p style="font-size: 1.1em; opacity: 0.9;">Specialized in learning efficiency, domain adaptation, and dataset curation</p>
+</div>
 
-## About Me
-I'm currently completing my Master's in Computer Science at UIUC. My previous reserach work focuses on efficient domain-specific dataset collection and model training. This site serves as a portfolio of my projects and a blog where I document insights from my experiences.
+## Key Achievements
 
-## Featured Projects
-- **ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation with an Astronomy Case Study**  
-  *Description*: [A tool for distilling domain-specific subsets of large, web-scale datasets given a list of keywords]  
-  *Technologies*: [Python, Pytorch, JAX]  
-  *Link*: [Coming soon!]
-
-
-## Blog Highlights
-Here's what I've been writing about:  
-- [How to Learn AI Best]({% post_url 2025-03-08-how-to-learn-ai-scratch %}) – A comprehensive guide to getting started with AI
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0;">
+  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #667eea;">
+    <h3 style="color: #333; margin-top: 0;">📚 Published Researcher</h3>
+    <p><strong>ACL Findings 2024</strong> - ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation</p>
+    <p><strong>SIGIR LiveRAG Workshop</strong> - Advanced retrieval-augmented generation research</p>
+  </div>
   
-Check out the [Blog](/blog) page for more!
+  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #764ba2;">
+    <h3 style="color: #333; margin-top: 0;">🎓 Academic Excellence</h3>
+    <p><strong>University of Illinois Urbana-Champaign</strong></p>
+    <p>Master of Computer Science (MCS)</p>
+    <p>Bachelor of Science (BS)</p>
+  </div>
+  
+  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #2c3e50;">
+    <h3 style="color: #333; margin-top: 0;">💼 Industry Impact</h3>
+    <p><strong>Capital One</strong> - Full-time Software Engineer</p>
+    <p>Applying AI research to real-world financial technology solutions</p>
+  </div>
+</div>
 
-## Contact
-Feel free to reach out at [ericjm4@illinois.edu] or connect with me on [LinkedIn/Twitter]!
+## Research Focus
+
+My work centers on **learning efficiency** - making AI systems learn more effectively from data, and helping humans learn more efficiently from AI. Current research areas include:
+
+- **Domain Adaptation**: Specializing general AI models for specific fields
+- **Dataset Curation**: Efficient methods for collecting high-quality training data
+- **Large Language Models**: Practical applications and optimization techniques
+
+I'm fortunate to collaborate with distinguished researchers **Professor Chengxiang Zhai** (current mentor) and **Professor Volodymyr Kindratenko** (former mentor) at UIUC.
+
+## Quick Navigation
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0;">
+  <a href="/publications" style="display: block; padding: 20px; background: #667eea; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+    <h3 style="margin: 0 0 10px 0;">📄 Publications</h3>
+    <p style="margin: 0; opacity: 0.9;">Research papers and findings</p>
+  </a>
+  
+  <a href="/research" style="display: block; padding: 20px; background: #764ba2; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+    <h3 style="margin: 0 0 10px 0;">🔬 Research</h3>
+    <p style="margin: 0; opacity: 0.9;">Current projects and interests</p>
+  </a>
+  
+  <a href="/experience" style="display: block; padding: 20px; background: #2c3e50; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+    <h3 style="margin: 0 0 10px 0;">💼 Experience</h3>
+    <p style="margin: 0; opacity: 0.9;">Professional journey</p>
+  </a>
+  
+  <a href="/projects" style="display: block; padding: 20px; background: #e74c3c; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+    <h3 style="margin: 0 0 10px 0;">⚡ Projects</h3>
+    <p style="margin: 0; opacity: 0.9;">Technical implementations</p>
+  </a>
+  
+  <a href="/blog" style="display: block; padding: 20px; background: #27ae60; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+    <h3 style="margin: 0 0 10px 0;">✍️ Blog</h3>
+    <p style="margin: 0; opacity: 0.9;">Insights and tutorials</p>
+  </a>
+  
+  <a href="/about" style="display: block; padding: 20px; background: #f39c12; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+    <h3 style="margin: 0 0 10px 0;">👋 About</h3>
+    <p style="margin: 0; opacity: 0.9;">More about me</p>
+  </a>
+</div>
+
+## Latest Blog Post
+
+<div style="background: #f8f9fa; padding: 25px; border-radius: 8px; margin: 30px 0;">
+  <h3><a href="{% post_url 2025-03-08-how-to-learn-ai-scratch %}" style="color: #333; text-decoration: none;">How to Develop Intuition for AI</a></h3>
+  <p style="color: #666; margin: 10px 0;">A comprehensive guide to developing intuition for AI through deliberate practice, covering both research and implementation skills.</p>
+  <p style="margin: 0;"><a href="/blog" style="color: #667eea;">Read more posts →</a></p>
+</div>
+
+## Get In Touch
+
+Interested in collaboration, research, or just want to chat about AI? Feel free to reach out!
+
+<div style="text-align: center; margin: 40px 0;">
+  <p style="font-size: 1.1em;">
+    📧 <a href="mailto:ericjm4@illinois.edu" style="color: #667eea;">ericjm4@illinois.edu</a> | 
+    💼 <a href="https://linkedin.com/in/ericmodesitt" style="color: #667eea;">LinkedIn</a> | 
+    🐙 <a href="https://github.com/ModeEric" style="color: #667eea;">GitHub</a>
+  </p>
+</div>
 
 ---
-*Last updated: March 2025*
+*Continuously learning and building at the intersection of AI research and industry applications*
