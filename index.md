@@ -3,7 +3,7 @@ layout: home
 title: "Eric Modesitt"
 ---
 
-<div class="hero-section" style="text-align: center; padding: 60px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-bottom: 40px; border-radius: 10px;">
+<div class="hero-section" style="text-align: center; padding: 60px 0; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; margin-bottom: 40px; border-radius: 10px;">
   <img src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" style="width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; margin-bottom: 20px; object-fit: cover;">
   <h1 style="font-size: 2.5em; margin-bottom: 10px; font-weight: 300;">Eric Modesitt</h1>
   <p style="font-size: 1.3em; margin-bottom: 30px; font-weight: 300;">AI Researcher & Engineer bridging academia and industry</p>
@@ -13,20 +13,20 @@ title: "Eric Modesitt"
 ## Key Achievements
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0;">
-  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #667eea;">
+  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #4facfe;">
     <h3 style="color: #333; margin-top: 0;">📚 Published Researcher</h3>
     <p><strong>ACL Findings 2024</strong> - ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation</p>
     <p><strong>SIGIR LiveRAG Workshop</strong> - Advanced retrieval-augmented generation research</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #764ba2;">
+  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #00f2fe;">
     <h3 style="color: #333; margin-top: 0;">🎓 Academic Excellence</h3>
     <p><strong>University of Illinois Urbana-Champaign</strong></p>
     <p>Master of Computer Science (MCS)</p>
     <p>Bachelor of Science (BS)</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #2c3e50;">
+  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #27ae60;">
     <h3 style="color: #333; margin-top: 0;">💼 Industry Impact</h3>
     <p><strong>Capital One</strong> - Full-time Software Engineer</p>
     <p>Applying AI research to real-world financial technology solutions</p>
@@ -46,12 +46,12 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
 ## Quick Navigation
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0;">
-  <a href="/publications" style="display: block; padding: 20px; background: #667eea; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/publications" style="display: block; padding: 20px; background: #4facfe; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
     <h3 style="margin: 0 0 10px 0;">📄 Publications</h3>
     <p style="margin: 0; opacity: 0.9;">Research papers and findings</p>
   </a>
   
-  <a href="/research" style="display: block; padding: 20px; background: #764ba2; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/research" style="display: block; padding: 20px; background: #00f2fe; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
     <h3 style="margin: 0 0 10px 0;">🔬 Research</h3>
     <p style="margin: 0; opacity: 0.9;">Current projects and interests</p>
   </a>
@@ -61,7 +61,7 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
     <p style="margin: 0; opacity: 0.9;">Professional journey</p>
   </a>
   
-  <a href="/projects" style="display: block; padding: 20px; background: #e74c3c; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/projects" style="display: block; padding: 20px; background: #1abc9c; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
     <h3 style="margin: 0 0 10px 0;">⚡ Projects</h3>
     <p style="margin: 0; opacity: 0.9;">Technical implementations</p>
   </a>
@@ -71,7 +71,7 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
     <p style="margin: 0; opacity: 0.9;">Insights and tutorials</p>
   </a>
   
-  <a href="/about" style="display: block; padding: 20px; background: #f39c12; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/about" style="display: block; padding: 20px; background: #16a085; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
     <h3 style="margin: 0 0 10px 0;">👋 About</h3>
     <p style="margin: 0; opacity: 0.9;">More about me</p>
   </a>
@@ -82,7 +82,7 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
 <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; margin: 30px 0;">
   <h3><a href="{% post_url 2025-03-08-how-to-learn-ai-scratch %}" style="color: #333; text-decoration: none;">How to Develop Intuition for AI</a></h3>
   <p style="color: #666; margin: 10px 0;">A comprehensive guide to developing intuition for AI through deliberate practice, covering both research and implementation skills.</p>
-  <p style="margin: 0;"><a href="/blog" style="color: #667eea;">Read more posts →</a></p>
+  <p style="margin: 0;"><a href="/blog" style="color: #4facfe;">Read more posts →</a></p>
 </div>
 
 ## Get In Touch
@@ -91,9 +91,9 @@ Interested in collaboration, research, or just want to chat about AI? Feel free 
 
 <div style="text-align: center; margin: 40px 0;">
   <p style="font-size: 1.1em;">
-    📧 <a href="mailto:ericjm4@illinois.edu" style="color: #667eea;">ericjm4@illinois.edu</a> | 
-    💼 <a href="https://linkedin.com/in/ericmodesitt" style="color: #667eea;">LinkedIn</a> | 
-    🐙 <a href="https://github.com/ModeEric" style="color: #667eea;">GitHub</a>
+    📧 <a href="mailto:ericjm4@illinois.edu" style="color: #4facfe;">ericjm4@illinois.edu</a> | 
+    💼 <a href="https://linkedin.com/in/ericmodesitt" style="color: #4facfe;">LinkedIn</a> | 
+    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe;">GitHub</a>
   </p>
 </div>
 

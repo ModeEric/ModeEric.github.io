@@ -4,7 +4,7 @@ title: "About Me"
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-  <img src="/assets/images/eric-about.jpg" alt="Eric Modesitt" style="width: 250px; height: 250px; border-radius: 50%; border: 6px solid #667eea; object-fit: cover; margin-bottom: 20px;">
+  <img src="/assets/images/eric-about.jpg" alt="Eric Modesitt" style="width: 250px; height: 250px; border-radius: 50%; border: 6px solid #4facfe; object-fit: cover; margin-bottom: 20px;">
   <h2 style="color: #333; margin-bottom: 10px;">Eric Modesitt</h2>
   <p style="font-size: 1.2em; color: #666;">AI Researcher & Software Engineer</p>
 </div>
@@ -83,12 +83,12 @@ I'm always interested in discussing:
 <div style="text-align: center; margin: 40px 0; padding: 30px; background: #f8f9fa; border-radius: 10px;">
   <h3 style="color: #333; margin-bottom: 20px;">Get In Touch</h3>
   <p style="font-size: 1.1em; margin-bottom: 20px;">
-    📧 <a href="mailto:ericjm4@illinois.edu" style="color: #667eea; text-decoration: none;">ericjm4@illinois.edu</a>
+    📧 <a href="mailto:ericjm4@illinois.edu" style="color: #4facfe; text-decoration: none;">ericjm4@illinois.edu</a>
   </p>
   <p style="margin: 5px 0;">
-    💼 <a href="https://linkedin.com/in/ericmodesitt" style="color: #667eea; text-decoration: none;">LinkedIn</a> | 
-    🐙 <a href="https://github.com/ModeEric" style="color: #667eea; text-decoration: none;">GitHub</a> | 
-    🎓 <a href="https://scholar.google.com/citations?user=PLACEHOLDER" style="color: #667eea; text-decoration: none;">Google Scholar</a>
+    💼 <a href="https://linkedin.com/in/ericmodesitt" style="color: #4facfe; text-decoration: none;">LinkedIn</a> | 
+    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe; text-decoration: none;">GitHub</a> | 
+    🎓 <a href="https://scholar.google.com/citations?user=PLACEHOLDER" style="color: #4facfe; text-decoration: none;">Google Scholar</a>
   </p>
 </div>
 

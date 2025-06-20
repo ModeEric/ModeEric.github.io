@@ -266,11 +266,11 @@ A comprehensive toolkit that applies AI learning insights to improve human learn
 
 ---
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin: 40px 0; text-align: center;">
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 30px; border-radius: 10px; margin: 40px 0; text-align: center;">
 <h3 style="margin-top: 0;">Interested in Collaboration?</h3>
 <p style="margin-bottom: 20px;">I'm always excited to work on projects that combine cutting-edge research with practical impact. Whether it's open-source contributions, research collaborations, or industry partnerships.</p>
 <div style="margin-top: 20px;">
-<a href="mailto:ericjm4@illinois.edu" style="background: white; color: #667eea; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 10px;">Start a Project</a>
+<a href="mailto:ericjm4@illinois.edu" style="background: white; color: #4facfe; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 10px;">Start a Project</a>
 <a href="https://github.com/ModeEric" style="background: rgba(255,255,255,0.2); color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 10px;">View All Projects</a>
 </div>
 </div> 
