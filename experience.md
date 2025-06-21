@@ -118,11 +118,6 @@ A journey through academia and industry, bridging cutting-edge research with rea
 - Statistics & Data Science (A) - Bayesian methods and experimental design
 - Algorithms & Complexity (A+) - Advanced algorithmic design patterns
 
-**Research Thesis**: "Domain Adaptation for Large Language Models using Efficient Dataset Curation"
-- **Advisor**: Prof. Chengxiang Zhai
-- **Grade**: Outstanding (Top 5% of thesis projects)
-- **Contributions**: Developed ORBIT methodology, published in ACL Findings
-- **Industry Impact**: Methodology adopted by multiple tech companies
 </div>
 
 <div style="background: white; border: 2px solid #27ae60; border-radius: 15px; padding: 25px;">
@@ -227,13 +222,10 @@ A journey through academia and industry, bridging cutting-edge research with rea
 
 **Academic Excellence**
 - Dean's List recognition at UIUC (Multiple semesters)
-- Graduate Research Fellowship recipient
-- Outstanding Graduate Student Research Award nominee
+- James Scholar (UIUC Honors Program)
+- ISUR Scholar (Researh Scholar Distinction)
+- NCSA Letter of Recognition
 
-**Professional Recognition**
-- Capital One Innovation Award for AI/ML contributions
-- Top performer recognition for research integration in industry applications
-- Peer recognition for mentoring and technical leadership
 
 </div>
 

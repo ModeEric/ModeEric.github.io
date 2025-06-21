@@ -221,9 +221,9 @@ If you find my work useful in your research, please consider citing:
 ## Academic Profiles & Networks
 
 <div style="text-align: center; margin: 40px 0;">
-<a href="https://scholar.google.com/citations?user=PLACEHOLDER" style="display: inline-block; background: #4285f4; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📚 Google Scholar</a>
+<a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ&hl=en&oi=ao" style="display: inline-block; background: #4285f4; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📚 Google Scholar</a>
 <a href="https://arxiv.org/search/?searchtype=author&query=Modesitt%2C+E" style="display: inline-block; background: #b31b1b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📄 arXiv</a>
-<a href="https://orcid.org/PLACEHOLDER" style="display: inline-block; background: #a6ce39; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">🆔 ORCID</a>
+<a href="https://orcid.org/0009-0005-9247-1081" style="display: inline-block; background: #a6ce39; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">🆔 ORCID</a>
 <a href="https://dblp.org/search?q=eric+modesitt" style="display: inline-block; background: #ff6b35; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📖 DBLP</a>
 </div>
 

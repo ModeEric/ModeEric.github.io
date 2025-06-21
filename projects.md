@@ -50,9 +50,9 @@ A revolutionary methodology for curating massive, high-quality domain-specific d
 
 <div style="margin: 25px 0;">
 <a href="https://arxiv.org/abs/2412.14436" style="display: inline-block; background: #667eea; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">📄 Research Paper</a>
-<a href="https://github.com/example/orbit" style="display: inline-block; background: #2c3e50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">💻 GitHub Repository</a>
+<a href="https://github.com/ModeEric/ORBIT-Llama" style="display: inline-block; background: #2c3e50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">💻 GitHub Repository</a>
 <a href="#" style="display: inline-block; background: #e74c3c; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">🎯 Live Demo</a>
-<a href="https://huggingface.co/example/orbit-llama" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">🤗 Models</a>
+<a href="ericmofre23/ORBIT-Llama-3-8b" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">🤗 Models</a>
 </div>
 
 </div>
