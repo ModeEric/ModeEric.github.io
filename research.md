@@ -5,7 +5,7 @@ title: "Research"
 
 # Research
 
-<p style="font-size: 1.2em; color: #666; margin-bottom: 40px; text-align: center;">
+<p class="md" style="font-size: 1.2em; color: #666; margin-bottom: 40px; text-align: center;">
 <em>Making AI systems learn more effectively from data, and helping humans learn more efficiently from AI</em>
 </p>
 
@@ -13,7 +13,7 @@ title: "Research"
 
 My research is driven by a simple yet powerful question: **How can we make learning more efficient?** This applies to both artificial intelligence systems and human learners. I believe the most impactful advances come from work that bridges theoretical understanding with practical implementation, creating solutions that are both scientifically rigorous and immediately applicable.
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 30px; border-radius: 10px; margin: 30px 0; text-align: center;">
+<div class="accent-band">
 <h3 style="margin-top: 0; font-size: 1.5em;">Core Research Themes</h3>
 <p style="font-size: 1.1em; margin-bottom: 0;">Efficiency • Adaptability • Practicality</p>
 </div>
@@ -22,7 +22,7 @@ My research is driven by a simple yet powerful question: **How can we make learn
 
 ### 🎯 Domain Adaptation for Large Language Models
 
-<div style="border-left: 4px solid #4facfe; padding-left: 25px; margin: 25px 0;">
+<div class="md" style="border-left: 4px solid #4facfe; padding-left: 25px; margin: 25px 0;">
 
 **The Challenge**: General-purpose AI models often lack the specialized knowledge needed for expert-level tasks in specific domains like astronomy, medicine, or law.
 
@@ -36,7 +36,7 @@ My research is driven by a simple yet powerful question: **How can we make learn
 
 ### 📊 Efficient Dataset Curation
 
-<div style="border-left: 4px solid #00f2fe; padding-left: 25px; margin: 25px 0;">
+<div class="md" style="border-left: 4px solid #00f2fe; padding-left: 25px; margin: 25px 0;">
 
 **The Challenge**: High-quality training data is crucial for AI performance, but manually curating datasets is expensive and time-consuming.
 
@@ -50,7 +50,7 @@ My research is driven by a simple yet powerful question: **How can we make learn
 
 ### 🔍 Advanced Information Retrieval
 
-<div style="border-left: 4px solid #2c3e50; padding-left: 25px; margin: 25px 0;">
+<div class="md" style="border-left: 4px solid #2c3e50; padding-left: 25px; margin: 25px 0;">
 
 **The Challenge**: AI systems need efficient access to relevant information for accurate and up-to-date responses.
 
@@ -64,7 +64,7 @@ My research is driven by a simple yet powerful question: **How can we make learn
 
 ## Research Timeline
 
-<div style="margin: 40px 0;">
+<div class="md" markdown="1" style="margin: 40px 0;">
 
 ### 2024: Breakthrough Year
 - **Published** ORBIT methodology in ACL Findings
@@ -86,9 +86,9 @@ My research is driven by a simple yet powerful question: **How can we make learn
 
 ## Current Research Projects
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; margin: 40px 0;">
+<div class="md" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; margin: 40px 0;">
 
-<div style="background: #f8f9fa; border: 2px solid #4facfe; border-radius: 10px; padding: 25px;">
+<div class="md" style="background: #f8f9fa; border: 2px solid #4facfe; border-radius: 10px; padding: 25px;">
 <h4 style="color: #4facfe; margin-top: 0;">🚀 ORBIT 2.0: Multi-Modal Adaptation</h4>
 <p><strong>Status</strong>: Active Development</p>
 <p><strong>Target Publication</strong>: ICLR 2025</p>
@@ -97,12 +97,12 @@ My research is driven by a simple yet powerful question: **How can we make learn
 <p><strong>Collaboration</strong>: Prof. Chengxiang Zhai (UIUC), Industry Partners</p>
 <p><strong>Timeline</strong>: 2024-2025</p>
 
-<div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 3px solid #4facfe;">
+<div class="md" style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 3px solid #4facfe;">
 <p style="margin: 0; font-size: 0.9em;"><strong>Recent Progress</strong>: Preliminary experiments show 40% improvement in multi-modal domain adaptation tasks.</p>
 </div>
 </div>
 
-<div style="background: #f8f9fa; border: 2px solid #00f2fe; border-radius: 10px; padding: 25px;">
+<div class="md" style="background: #f8f9fa; border: 2px solid #00f2fe; border-radius: 10px; padding: 25px;">
 <h4 style="color: #00f2fe; margin-top: 0;">🧠 Human-AI Learning Efficiency Framework</h4>
 <p><strong>Status</strong>: Data Collection Phase</p>
 <p><strong>Target Publication</strong>: CHI 2025</p>
@@ -111,12 +111,12 @@ My research is driven by a simple yet powerful question: **How can we make learn
 <p><strong>Focus</strong>: Deliberate practice principles applied to AI system design</p>
 <p><strong>Timeline</strong>: 2024-2026</p>
 
-<div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 3px solid #00f2fe;">
+<div class="md" style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 3px solid #00f2fe;">
 <p style="margin: 0; font-size: 0.9em;"><strong>Methodology</strong>: Conducting longitudinal studies with 200+ participants across different learning domains.</p>
 </div>
 </div>
 
-<div style="background: #f8f9fa; border: 2px solid #27ae60; border-radius: 10px; padding: 25px;">
+<div class="md" style="background: #f8f9fa; border: 2px solid #27ae60; border-radius: 10px; padding: 25px;">
 <h4 style="color: #27ae60; margin-top: 0;">💼 Industrial AI Deployment Lessons</h4>
 <p><strong>Status</strong>: Industry Collaboration</p>
 <p><strong>Target Publication</strong>: KDD Industry Track 2025</p>
@@ -125,7 +125,7 @@ My research is driven by a simple yet powerful question: **How can we make learn
 <p><strong>Partnership</strong>: Capital One AI/ML Engineering Team</p>
 <p><strong>Timeline</strong>: 2024-2025</p>
 
-<div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 3px solid #27ae60;">
+<div class="md" style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 3px solid #27ae60;">
 <p style="margin: 0; font-size: 0.9em;"><strong>Impact</strong>: Systems serving 1M+ daily users, 95% uptime, significant cost reduction vs. general models.</p>
 </div>
 </div>
@@ -134,15 +134,15 @@ My research is driven by a simple yet powerful question: **How can we make learn
 
 ## Research Vision & Timeline
 
-<div style="background: #f0fdff; border-radius: 10px; padding: 30px; margin: 30px 0;">
+<div class="md" markdown="1" style="background: #f0fdff; border-radius: 10px; padding: 30px; margin: 30px 0;">
 
 ### 🔮 Long-term Research Vision (2025-2030)
 
 **Ultimate Goal**: Create a unified theory of learning efficiency that applies across AI systems, human cognition, and human-AI collaborative environments.
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+<div class="md" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
-<div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #4facfe;">
+<div class="md" style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #4facfe;">
 <h4 style="color: #4facfe; margin-top: 0;">Phase 1: Foundation (2024-2025)</h4>
 <ul>
 <li>ORBIT 2.0 multi-modal extension</li>
@@ -151,7 +151,7 @@ My research is driven by a simple yet powerful question: **How can we make learn
 </ul>
 </div>
 
-<div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #00f2fe;">
+<div class="md" style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #00f2fe;">
 <h4 style="color: #00f2fe; margin-top: 0;">Phase 2: Integration (2025-2027)</h4>
 <ul>
 <li>Cross-domain efficiency principles</li>
@@ -160,7 +160,7 @@ My research is driven by a simple yet powerful question: **How can we make learn
 </ul>
 </div>
 
-<div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #27ae60;">
+<div class="md" style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #27ae60;">
 <h4 style="color: #27ae60; margin-top: 0;">Phase 3: Unification (2027-2030)</h4>
 <ul>
 <li>Universal learning efficiency theory</li>
@@ -177,9 +177,9 @@ My research is driven by a simple yet powerful question: **How can we make learn
 
 My research is greatly enhanced by working with exceptional mentors and collaborators:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
+<div class="md" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
 
-<div style="background: white; border: 2px solid #667eea; border-radius: 10px; padding: 25px;">
+<div class="md" style="background: white; border: 2px solid #667eea; border-radius: 10px; padding: 25px;">
 <h4 style="color: #667eea; margin-top: 0;">Current Mentor</h4>
 <h5>Professor Chengxiang Zhai</h5>
 <p><strong>University of Illinois Urbana-Champaign</strong></p>
@@ -187,7 +187,7 @@ My research is greatly enhanced by working with exceptional mentors and collabor
 <a href="https://czhai.cs.illinois.edu/" style="color: #667eea;">View Profile →</a>
 </div>
 
-<div style="background: white; border: 2px solid #764ba2; border-radius: 10px; padding: 25px;">
+<div class="md" style="background: white; border: 2px solid #764ba2; border-radius: 10px; padding: 25px;">
 <h4 style="color: #764ba2; margin-top: 0;">Former Mentor</h4>
 <h5>Professor Volodymyr Kindratenko</h5>
 <p><strong>NCSA / University of Illinois</strong></p>
@@ -199,7 +199,7 @@ My research is greatly enhanced by working with exceptional mentors and collabor
 
 ## Research Impact & Metrics
 
-<div style="background: #f8f9fa; border-radius: 10px; padding: 30px; margin: 30px 0;">
+<div class="md" markdown="1" style="background: #f8f9fa; border-radius: 10px; padding: 30px; margin: 30px 0;">
 
 ### Publications Impact
 - **ACL Findings**: Top-tier venue with significant community reach
@@ -237,7 +237,7 @@ My research is greatly enhanced by working with exceptional mentors and collabor
 
 ## Resources & Tools
 
-<div style="text-align: center; margin: 40px 0;">
+<div class="md" style="text-align: center; margin: 40px 0;">
 <a href="https://github.com/ModeEric/ORBIT-Llama" style="display: inline-block; background: #2c3e50; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">💻 ORBIT Code</a>
 <a href="https://huggingface.co/ericmofre23/ORBIT-Llama-3-8b" style="display: inline-block; background: #ff6b35; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">🤗 Models</a>
 <a href="#" style="display: inline-block; background: #667eea; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📊 Datasets</a>
@@ -245,8 +245,8 @@ My research is greatly enhanced by working with exceptional mentors and collabor
 
 ---
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 30px; border-radius: 10px; margin: 40px 0; text-align: center;">
+<div class="accent-band">
 <h3 style="margin-top: 0;">Interested in Collaboration?</h3>
 <p style="margin-bottom: 20px;">I'm always looking for opportunities to collaborate on research that bridges theory and practice in AI learning efficiency.</p>
-<a href="mailto:ericjm4@illinois.edu" style="background: white; color: #4facfe; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Start a Conversation</a>
+<a href="mailto:ericmodesitt89@gmail.com" style="background: white; color: #4facfe; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Start a Conversation</a>
 </div> 

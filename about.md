@@ -3,9 +3,9 @@ layout: page
 title: "About Me"
 ---
 
-<div style="text-align: center; margin-bottom: 40px;">
+<div class="md" style="text-align: center; margin-bottom: 40px;">
   <img src="/assets/images/eric-about.jpg" alt="Eric Modesitt" style="width: 250px; height: 250px; border-radius: 50%; border: 6px solid #4facfe; object-fit: cover; margin-bottom: 20px;" loading="lazy" decoding="async">
-  <h2 style="color: #333; margin-bottom: 10px;">Eric Modesitt</h2>
+  <h2>Eric Modesitt</h2>
   <p style="font-size: 1.2em; color: #666;">AI Researcher & Software Engineer</p>
 </div>
 

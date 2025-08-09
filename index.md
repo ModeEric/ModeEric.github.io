@@ -3,31 +3,31 @@ layout: home
 title: "Eric Modesitt"
 ---
 
-<div class="hero-section" style="text-align: center; padding: 60px 0; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; margin-bottom: 40px; border-radius: 10px;">
-  <img src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" style="width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; margin-bottom: 20px; object-fit: cover;" loading="lazy" decoding="async">
-  <h1 style="font-size: 2.5em; margin-bottom: 10px; font-weight: 300;">Eric Modesitt</h1>
-  <p style="font-size: 1.3em; margin-bottom: 30px; font-weight: 300;">AI Researcher & Engineer bridging academia and industry</p>
-  <p style="font-size: 1.1em; opacity: 0.9;">Specialized in learning efficiency, domain adaptation, and dataset curation</p>
+<div class="hero-section">
+  <img class="hero-avatar" src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" loading="lazy" decoding="async">
+  <h1 class="hero-title">Eric Modesitt</h1>
+  <p class="hero-subtitle">AI Researcher & Engineer bridging academia and industry</p>
+  <p class="hero-tagline">Specialized in learning efficiency, domain adaptation, and dataset curation</p>
 </div>
 
 ## Key Achievements
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0;">
-  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #4facfe;">
-    <h3 style="color: #333; margin-top: 0;">📚 Published Researcher</h3>
+<div class="grid grid-auto" style="margin: 40px 0;">
+  <div class="panel">
+    <h3>📚 Published Researcher</h3>
     <p><strong>ACL Findings 2024</strong> - ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation</p>
     <p><strong>SIGIR LiveRAG Workshop</strong> - Advanced retrieval-augmented generation research</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #00f2fe;">
-    <h3 style="color: #333; margin-top: 0;">🎓 Academic Excellence</h3>
+  <div class="panel alt-1">
+    <h3>🎓 Academic Excellence</h3>
     <p><strong>University of Illinois Urbana-Champaign</strong></p>
     <p>Master of Computer Science (MCS)</p>
     <p>Bachelor of Science (BS)</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #27ae60;">
-    <h3 style="color: #333; margin-top: 0;">💼 Industry Impact</h3>
+  <div class="panel alt-2">
+    <h3>💼 Industry Impact</h3>
     <p><strong>Capital One</strong> - Full-time Software Engineer</p>
     <p>Applying AI research to real-world financial technology solutions</p>
   </div>
@@ -45,28 +45,28 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
 
 ## Quick Navigation
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0;">
-  <a href="/publications" style="display: block; padding: 20px; background: #4facfe; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+<div class="grid grid-auto-sm" style="margin: 40px 0;">
+  <a href="/publications" class="tile pub">
     <h3 style="margin: 0 0 10px 0;">📄 Publications</h3>
     <p style="margin: 0; opacity: 0.9;">Research papers and findings</p>
   </a>
   
-  <a href="/research" style="display: block; padding: 20px; background: #00f2fe; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/research" class="tile research">
     <h3 style="margin: 0 0 10px 0;">🔬 Research</h3>
     <p style="margin: 0; opacity: 0.9;">Current projects and interests</p>
   </a>
   
-  <a href="/experience" style="display: block; padding: 20px; background: #2c3e50; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/experience" class="tile exp">
     <h3 style="margin: 0 0 10px 0;">💼 Experience</h3>
     <p style="margin: 0; opacity: 0.9;">Professional journey</p>
   </a>
   
-  <a href="/projects" style="display: block; padding: 20px; background: #1abc9c; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/projects" class="tile proj">
     <h3 style="margin: 0 0 10px 0;">⚡ Projects</h3>
     <p style="margin: 0; opacity: 0.9;">Technical implementations</p>
   </a>
   
-  <a href="/about" style="display: block; padding: 20px; background: #16a085; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+  <a href="/about" class="tile about">
     <h3 style="margin: 0 0 10px 0;">👋 About</h3>
     <p style="margin: 0; opacity: 0.9;">More about me</p>
   </a>

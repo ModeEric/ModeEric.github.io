@@ -5,13 +5,13 @@ title: "Projects"
 
 # Technical Projects
 
-<p style="font-size: 1.1em; color: #666; margin-bottom: 40px; text-align: center;">
+<p class="md" style="font-size: 1.1em; color: #666; margin-bottom: 40px; text-align: center;">
 From research prototypes to production systems - bridging the gap between academic innovation and practical implementation
 </p>
 
 ## Research Projects
 
-<div style="border: 2px solid #667eea; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<div class="md" markdown="1" style="border: 2px solid #667eea; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
 
 ### 🚀 ORBIT: Dataset Curation for Domain Adaptation
 
@@ -33,7 +33,7 @@ A methodology for curating high-quality domain-specific datasets from noisy web 
 </div>
 
 <div style="text-align: center;">
-<img src="/assets/images/orbit-architecture.png" alt="ORBIT Architecture" style="width: 100%; max-width: 300px; border-radius: 10px; border: 2px solid #667eea; margin-bottom: 15px;" loading="lazy" decoding="async">
+<img class="rounded bordered" src="/assets/images/orbit-architecture.png" alt="ORBIT Architecture" style="width: 100%; max-width: 300px; margin-bottom: 15px;" loading="lazy" decoding="async">
 <p style="font-size: 0.9em; color: #666; font-style: italic;">ORBIT Pipeline Architecture</p>
 </div>
 </div>
@@ -45,14 +45,14 @@ A methodology for curating high-quality domain-specific datasets from noisy web 
 - **Infrastructure**: Google Cloud Platform, Docker
 
 <div style="margin: 25px 0;">
-<a href="https://arxiv.org/abs/2412.14436" style="display: inline-block; background: #667eea; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">📄 Research Paper</a>
-<a href="https://github.com/ModeEric/ORBIT-Llama" style="display: inline-block; background: #2c3e50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">💻 GitHub Repository</a>
-<a href="https://huggingface.co/ericmofre23/ORBIT-Llama-3-8b" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">🤗 Models</a>
+<a class="btn paper" href="https://arxiv.org/abs/2412.14436">📄 Research Paper</a>
+<a class="btn code" href="https://github.com/ModeEric/ORBIT-Llama">💻 GitHub Repository</a>
+<a class="btn model" href="https://huggingface.co/ericmofre23/ORBIT-Llama-3-8b">🤗 Models</a>
 </div>
 
 </div>
 
-<div style="border: 2px solid #764ba2; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<div class="md" markdown="1" style="border: 2px solid #764ba2; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
 
 ### 🔍 LiveRAG: Advanced Retrieval-Augmented Generation
 
@@ -78,7 +78,7 @@ Next-generation retrieval-augmented generation system focusing on real-time info
 </div>
 
 <div style="text-align: center;">
-<img src="/assets/images/liverag-system.png" alt="LiveRAG System" style="width: 100%; max-width: 300px; border-radius: 10px; border: 2px solid #764ba2; margin-bottom: 15px;" loading="lazy" decoding="async">
+<img class="rounded bordered" src="/assets/images/liverag-system.png" alt="LiveRAG System" style="width: 100%; max-width: 300px; margin-bottom: 15px;" loading="lazy" decoding="async">
 <p style="font-size: 0.9em; color: #666; font-style: italic;">LiveRAG System Architecture</p>
 </div>
 </div>
@@ -94,8 +94,8 @@ Next-generation retrieval-augmented generation system focusing on real-time info
 </div>
 
 <div style="margin: 25px 0;">
-<a href="#" style="display: inline-block; background: #764ba2; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">📄 Paper (Coming Soon)</a>
-<a href="https://github.com/ModeEric/UIUC-RAGents-LiveRAG" style="display: inline-block; background: #2c3e50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">💻 Code</a>
+<a class="btn paper" href="#">📄 Paper (Coming Soon)</a>
+<a class="btn code" href="https://github.com/ModeEric/UIUC-RAGents-LiveRAG">💻 Code</a>
 </div>
 
 </div>
@@ -104,7 +104,7 @@ Next-generation retrieval-augmented generation system focusing on real-time info
 
 ---
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 30px; border-radius: 10px; margin: 40px 0; text-align: center;">
+<div class="accent-band">
 <h3 style="margin-top: 0;">Interested in Collaboration?</h3>
 <p style="margin-bottom: 20px;">I'm always excited to work on projects that combine cutting-edge research with practical impact, including research collaborations and industry partnerships.</p>
 <div style="margin-top: 20px;">

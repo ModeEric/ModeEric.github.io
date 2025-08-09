@@ -1,0 +1,89 @@
+/* Custom site styles for Eric Modesitt */
+
+:root {
+  --brand-blue-1: #4facfe;
+  --brand-blue-2: #00f2fe;
+  --brand-gray-bg: #f8f9fa;
+  --brand-text: #333;
+  --brand-muted: #666;
+  --radius-lg: 10px;
+  --radius-md: 8px;
+  --shadow-1: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Hero */
+.hero-section {
+  text-align: center;
+  padding: 60px 0;
+  background: linear-gradient(135deg, var(--brand-blue-1) 0%, var(--brand-blue-2) 100%);
+  color: white;
+  margin-bottom: 40px;
+  border-radius: var(--radius-lg);
+}
+.hero-title { font-size: 2.5em; margin-bottom: 10px; font-weight: 300; }
+.hero-subtitle { font-size: 1.3em; margin-bottom: 30px; font-weight: 300; }
+.hero-tagline { font-size: 1.1em; opacity: 0.9; }
+
+.hero-avatar {
+  width: 180px; height: 180px; border-radius: 50%; border: 5px solid white;
+  margin-bottom: 20px; object-fit: cover;
+}
+
+/* Cards / panels */
+.panel {
+  background: var(--brand-gray-bg);
+  padding: 25px;
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--brand-blue-1);
+}
+.panel h3 { color: var(--brand-text); margin-top: 0; }
+
+.panel.alt-1 { border-left-color: var(--brand-blue-2); }
+.panel.alt-2 { border-left-color: #27ae60; }
+
+/* Grid helpers */
+.grid {
+  display: grid; gap: 30px;
+}
+.grid-auto {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.grid-auto-sm {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;
+}
+
+/* CTA tiles */
+.tile {
+  display: block; padding: 20px; color: white; text-decoration: none; border-radius: 8px; text-align: center;
+  transition: transform 0.2s; box-shadow: var(--shadow-1);
+}
+.tile:hover { transform: translateY(-2px); }
+.tile.pub { background: var(--brand-blue-1); }
+.tile.research { background: var(--brand-blue-2); }
+.tile.exp { background: #2c3e50; }
+.tile.proj { background: #1abc9c; }
+.tile.about { background: #16a085; }
+
+/* Image helpers */
+img.rounded { border-radius: 10px; }
+img.bordered { border: 2px solid #ddd; }
+
+/* Section accents */
+.accent-band {
+  background: linear-gradient(135deg, var(--brand-blue-1) 0%, var(--brand-blue-2) 100%);
+  color: white; padding: 30px; border-radius: var(--radius-lg); margin: 40px 0; text-align: center;
+}
+
+/* Markdown rendering inside custom HTML blocks */
+.md blockquote, .md p, .md ul, .md ol, .md h1, .md h2, .md h3, .md h4, .md h5, .md h6, .md pre, .md code {
+  all: revert;
+}
+.md h3 { margin-top: 0; }
+
+/* Buttons */
+.btn { display: inline-block; padding: 12px 20px; border-radius: 5px; text-decoration: none; color: white; }
+.btn.paper { background: #667eea; }
+.btn.code { background: #2c3e50; }
+.btn.model { background: #ff6b35; }
+.btn.demo { background: #e74c3c; }
+

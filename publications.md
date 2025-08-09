@@ -5,7 +5,7 @@ title: "Publications"
 
 # Publications
 
-<p style="font-size: 1.1em; color: #666; margin-bottom: 40px;">
+<p class="md" style="font-size: 1.1em; color: #666; margin-bottom: 40px;">
 My research focuses on learning efficiency for AI systems, particularly in domain adaptation and dataset curation. Here are my published works and ongoing research:
 </p>
 
@@ -13,7 +13,7 @@ My research focuses on learning efficiency for AI systems, particularly in domai
 
 ### 2024
 
-<div style="border: 2px solid #4facfe; border-radius: 10px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<div class="md" markdown="1" style="border: 2px solid #4facfe; border-radius: 10px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
 
 #### ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation with an Astronomy Case Study
 
@@ -23,7 +23,7 @@ My research focuses on learning efficiency for AI systems, particularly in domai
 **arXiv**: [2412.14436](https://arxiv.org/abs/2412.14436)  
 
 <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #4facfe;">
-<h5 style="color: #333; margin-top: 0;">Abstract</h5>
+<h5 style="margin-top: 0;">Abstract</h5>
 <p style="text-align: justify; line-height: 1.6;">
 Recent advances in language modeling demonstrate the need for high-quality domain-specific training data, especially for tasks that require specialized knowledge. General-purpose models, while versatile, often lack the depth needed for expert-level tasks because of limited domain-specific information. Domain adaptation training can enhance these models, but it demands substantial, high-quality data. To address this, we propose ORBIT, a cost-efficient methodology for curating massive, high-quality domain-specific datasets from noisy web sources, tailored for training specialist large language models.
 </p>
@@ -57,7 +57,7 @@ Recent advances in language modeling demonstrate the need for high-quality domai
 
 </div>
 
-<div style="border: 2px solid #00f2fe; border-radius: 10px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<div class="md" markdown="1" style="border: 2px solid #00f2fe; border-radius: 10px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
 
 #### LiveRAG: Advanced Retrieval-Augmented Generation Systems
 
@@ -86,7 +86,7 @@ This work explores next-generation techniques in retrieval-augmented generation 
 - **Reliability Metrics**: Framework for assessing information freshness vs. credibility
 - **Real-world Validation**: Testing across diverse domains and query types
 
-<div style="background: #e8f8fd; padding: 15px; border-radius: 5px; margin: 15px 0;">
+<div class="md" style="background: #e8f8fd; padding: 15px; border-radius: 5px; margin: 15px 0;">
 <strong>📋 Workshop Impact</strong>: This work contributed to the SIGIR community's understanding of next-generation retrieval systems and sparked collaborations with industry researchers working on similar challenges.
 </div>
 
@@ -99,7 +99,7 @@ This work explores next-generation techniques in retrieval-augmented generation 
 
 ## Works in Progress
 
-<div style="background: #f0fdff; border: 2px dashed #4facfe; border-radius: 10px; padding: 25px; margin: 30px 0;">
+<div class="md" markdown="1" style="background: #f0fdff; border: 2px dashed #4facfe; border-radius: 10px; padding: 25px; margin: 30px 0;">
 
 ### 🚧 Future Publications Pipeline
 
@@ -136,7 +136,7 @@ This work explores next-generation techniques in retrieval-augmented generation 
 
 ## Research Timeline & Evolution
 
-<div style="background: #f8f9fa; border-radius: 10px; padding: 30px; margin: 30px 0;">
+<div class="md" markdown="1" style="background: #f8f9fa; border-radius: 10px; padding: 30px; margin: 30px 0;">
 
 ### 📅 Publication Journey
 
@@ -169,7 +169,7 @@ This work explores next-generation techniques in retrieval-augmented generation 
 
 ## Research Impact & Metrics
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
+<div class="md" markdown="1" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
 
 <div style="background: #4facfe; color: white; padding: 25px; border-radius: 10px; text-align: center;">
 <h3 style="margin: 0 0 10px 0; font-size: 2em;">73%</h3>
@@ -199,7 +199,7 @@ This work explores next-generation techniques in retrieval-augmented generation 
 
 ## Citation Information
 
-<div style="background: #f8f9fa; border-radius: 8px; padding: 25px; margin: 30px 0;">
+<div class="md" style="background: #f8f9fa; border-radius: 8px; padding: 25px; margin: 30px 0;">
 
 If you find my work useful in your research, please consider citing:
 
@@ -218,7 +218,7 @@ If you find my work useful in your research, please consider citing:
 
 ## Academic Profiles & Networks
 
-<div style="text-align: center; margin: 40px 0;">
+<div class="md" style="text-align: center; margin: 40px 0;">
 <a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ" style="display: inline-block; background: #4285f4; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📚 Google Scholar</a>
 <a href="https://arxiv.org/search/?searchtype=author&query=Modesitt%2C+E" style="display: inline-block; background: #b31b1b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📄 arXiv</a>
 <a href="https://orcid.org/0009-0005-9247-1081" style="display: inline-block; background: #a6ce39; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">🆔 ORCID</a>
@@ -227,8 +227,8 @@ If you find my work useful in your research, please consider citing:
 
 ---
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 30px; border-radius: 10px; margin: 40px 0; text-align: center;">
+<div class="accent-band">
 <h3 style="margin-top: 0;">Interested in Collaboration?</h3>
 <p style="margin-bottom: 20px;">I'm always looking for opportunities to collaborate on research related to learning efficiency, domain adaptation, and practical AI applications. Whether you're interested in extending existing work or exploring new directions.</p>
-<a href="mailto:ericjm4@illinois.edu" style="background: white; color: #4facfe; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Start a Research Conversation</a>
+<a href="mailto:ericmodesitt89@gmail.com" style="background: white; color: #4facfe; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Start a Research Conversation</a>
 </div> 

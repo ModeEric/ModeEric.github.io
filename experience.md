@@ -5,7 +5,7 @@ title: "Experience"
 
 # Professional Experience
 
-<p style="font-size: 1.1em; color: #666; margin-bottom: 40px; text-align: center;">
+<p class="md" style="font-size: 1.1em; color: #666; margin-bottom: 40px; text-align: center;">
 A journey through academia, bridging cutting-edge research with real-world applications
 </p>
 
@@ -13,7 +13,7 @@ A journey through academia, bridging cutting-edge research with real-world appli
 
 ## Academic Experience
 
-<div style="border: 2px solid #667eea; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<div class="md" markdown="1" style="border: 2px solid #667eea; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
 
 ### 🎓 Graduate Research Assistant - University of Illinois Urbana-Champaign
 **Duration**: 2022 - 2024  
@@ -21,7 +21,7 @@ A journey through academia, bridging cutting-edge research with real-world appli
 **Advisor**: Prof. Chengxiang Zhai  
 
 <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #667eea;">
-<h4 style="color: #333; margin-top: 0;">Research Focus</h4>
+<h4 style="margin-top: 0;">Research Focus</h4>
 <p>Conducted cutting-edge research in natural language processing, information retrieval, and domain adaptation, culminating in publications at top-tier venues.</p>
 </div>
 
@@ -39,7 +39,7 @@ A journey through academia, bridging cutting-edge research with real-world appli
 
 </div>
 
-<div style="border: 2px solid #764ba2; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<div class="md" markdown="1" style="border: 2px solid #764ba2; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
 
 ### 🔬 Research Collaborator - NCSA (National Center for Supercomputing Applications)
 **Duration**: 2021 - 2023  
@@ -47,7 +47,7 @@ A journey through academia, bridging cutting-edge research with real-world appli
 **Focus**: High-Performance Computing & AI Acceleration  
 
 <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #764ba2;">
-<h4 style="color: #333; margin-top: 0;">Technical Foundation</h4>
+<h4 style="margin-top: 0;">Technical Foundation</h4>
 <p>Developed deep understanding of computational aspects of AI research, focusing on efficient implementation and scalable systems.</p>
 </div>
 
@@ -140,7 +140,7 @@ A journey through academia, bridging cutting-edge research with real-world appli
 
 ## Leadership & Mentoring
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 40px 0;">
+<div class="md" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 40px 0;">
 
 <div style="background: white; border: 2px solid #667eea; border-radius: 10px; padding: 25px;">
 <h4 style="color: #667eea; margin-top: 0;">🎯 Research Mentoring</h4>
@@ -160,7 +160,7 @@ A journey through academia, bridging cutting-edge research with real-world appli
 
 ## Awards & Recognition
 
-<div style="border-left: 4px solid #f39c12; padding-left: 25px; margin: 25px 0; background: #fdf6e3; padding: 20px; border-radius: 8px;">
+<div class="md" style="border-left: 4px solid #f39c12; padding-left: 25px; margin: 25px 0; background: #fdf6e3; padding: 20px; border-radius: 8px;">
 
 **Academic Excellence**
 - Dean's List recognition at UIUC (Multiple semesters)
@@ -173,11 +173,11 @@ A journey through academia, bridging cutting-edge research with real-world appli
 
 ---
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 30px; border-radius: 10px; margin: 40px 0; text-align: center;">
+<div class="accent-band">
 <h3 style="margin-top: 0;">Ready for the Next Challenge</h3>
 <p style="margin-bottom: 20px;">I'm passionate about roles that combine cutting-edge research with practical impact, whether in industry or academia.</p>
 <div style="margin-top: 20px;">
-<a href="mailto:ericjm4@illinois.edu" style="background: white; color: #4facfe; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 10px;">Contact Me</a>
+<a href="mailto:ericmodesitt89@gmail.com" style="background: white; color: #4facfe; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 10px;">Contact Me</a>
 <a href="/assets/resume.pdf" style="background: rgba(255,255,255,0.2); color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 10px;">Download Resume</a>
 </div>
 </div> 
