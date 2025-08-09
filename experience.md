@@ -6,44 +6,10 @@ title: "Experience"
 # Professional Experience
 
 <p style="font-size: 1.1em; color: #666; margin-bottom: 40px; text-align: center;">
-A journey through academia and industry, bridging cutting-edge research with real-world applications
+A journey through academia, bridging cutting-edge research with real-world applications
 </p>
 
-## Industry Experience
-
-<div style="border: 2px solid #2c3e50; border-radius: 15px; padding: 30px; margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-
-### 💼 Software Engineer - Capital One
-**Duration**: Current Position  
-**Location**: McLean, VA / Remote  
-**Team**: AI/ML Engineering  
-
-<div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #2c3e50;">
-<h4 style="color: #333; margin-top: 0;">Role Overview</h4>
-<p>Applying AI research principles to solve real-world financial technology challenges, impacting millions of users through innovative machine learning solutions.</p>
-</div>
-
-**Key Responsibilities**:
-- Develop and deploy AI/ML models for financial services applications
-- Bridge academic research with practical industry implementations
-- Collaborate with cross-functional teams to integrate AI solutions into production systems
-- Research and implement cutting-edge NLP and ML techniques for business applications
-
-**Technical Stack**:
-- **Languages**: Python, Java, SQL, JavaScript
-- **ML/AI**: PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers
-- **Cloud**: AWS, Google Cloud Platform
-- **Tools**: Docker, Kubernetes, Git, Jenkins
-
-**Impact & Achievements**:
-- 🚀 **Scale**: Successfully deployed AI models serving 1M+ daily customer interactions
-- 📈 **Performance**: Led initiatives resulting in 30% improvement in model accuracy and 50% reduction in inference latency
-- 💰 **Business Value**: Contributed to $2M+ annual cost savings through efficient AI system design
-- 👥 **Leadership**: Mentored 5+ junior engineers on ML best practices and research integration
-- 🔬 **Innovation**: Filed 2 patent applications for novel AI optimization techniques
-- 🏆 **Recognition**: Received "Innovation Excellence Award" for breakthrough domain adaptation work
-
-</div>
+ 
 
 ## Academic Experience
 
@@ -170,27 +136,7 @@ A journey through academia and industry, bridging cutting-edge research with rea
 
 </div>
 
-## Professional Development
-
-<div style="background: #f8f9fa; border-radius: 10px; padding: 30px; margin: 30px 0;">
-
-### Conferences & Workshops
-- **ACL 2024**: Presented ORBIT methodology at premier NLP conference
-- **SIGIR 2024**: Contributed to LiveRAG workshop on retrieval systems
-- **Industry AI Summits**: Regular attendee at Capital One AI/ML conferences
-
-### Certifications & Training
-- AWS Machine Learning Specialty (Planned 2024)
-- Advanced NLP with Transformers
-- High-Performance Computing Optimization
-- Financial Services AI Ethics and Compliance
-
-### Professional Memberships
-- Association for Computational Linguistics (ACL)
-- Special Interest Group on Information Retrieval (SIGIR)
-- IEEE Computer Society
-
-</div>
+ 
 
 ## Leadership & Mentoring
 
@@ -202,11 +148,7 @@ A journey through academia and industry, bridging cutting-edge research with rea
 <p><strong>Focus Areas</strong>: Research methodology, technical implementation, academic writing</p>
 </div>
 
-<div style="background: white; border: 2px solid #764ba2; border-radius: 10px; padding: 25px;">
-<h4 style="color: #764ba2; margin-top: 0;">💼 Industry Mentoring</h4>
-<p>Mentoring junior engineers at Capital One on ML best practices and research integration.</p>
-<p><strong>Focus Areas</strong>: Technical skills, career development, bridging academia-industry gap</p>
-</div>
+ 
 
 <div style="background: white; border: 2px solid #27ae60; border-radius: 10px; padding: 25px;">
 <h4 style="color: #27ae60; margin-top: 0;">🌐 Community Engagement</h4>

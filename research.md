@@ -238,8 +238,8 @@ My research is greatly enhanced by working with exceptional mentors and collabor
 ## Resources & Tools
 
 <div style="text-align: center; margin: 40px 0;">
-<a href="https://github.com/example/orbit" style="display: inline-block; background: #2c3e50; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">💻 ORBIT Code</a>
-<a href="https://huggingface.co/example/orbit-llama" style="display: inline-block; background: #ff6b35; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">🤗 Models</a>
+<a href="https://github.com/ModeEric/ORBIT-Llama" style="display: inline-block; background: #2c3e50; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">💻 ORBIT Code</a>
+<a href="https://huggingface.co/ericmofre23/ORBIT-Llama-3-8b" style="display: inline-block; background: #ff6b35; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">🤗 Models</a>
 <a href="#" style="display: inline-block; background: #667eea; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📊 Datasets</a>
 </div>
 

@@ -4,7 +4,7 @@ title: "Eric Modesitt"
 ---
 
 <div class="hero-section" style="text-align: center; padding: 60px 0; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; margin-bottom: 40px; border-radius: 10px;">
-  <img src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" style="width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; margin-bottom: 20px; object-fit: cover;">
+  <img src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" style="width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; margin-bottom: 20px; object-fit: cover;" loading="lazy" decoding="async">
   <h1 style="font-size: 2.5em; margin-bottom: 10px; font-weight: 300;">Eric Modesitt</h1>
   <p style="font-size: 1.3em; margin-bottom: 30px; font-weight: 300;">AI Researcher & Engineer bridging academia and industry</p>
   <p style="font-size: 1.1em; opacity: 0.9;">Specialized in learning efficiency, domain adaptation, and dataset curation</p>
@@ -66,24 +66,13 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
     <p style="margin: 0; opacity: 0.9;">Technical implementations</p>
   </a>
   
-  <a href="/blog" style="display: block; padding: 20px; background: #27ae60; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
-    <h3 style="margin: 0 0 10px 0;">✍️ Blog</h3>
-    <p style="margin: 0; opacity: 0.9;">Insights and tutorials</p>
-  </a>
-  
   <a href="/about" style="display: block; padding: 20px; background: #16a085; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
     <h3 style="margin: 0 0 10px 0;">👋 About</h3>
     <p style="margin: 0; opacity: 0.9;">More about me</p>
   </a>
 </div>
 
-## Latest Blog Post
 
-<div style="background: #f8f9fa; padding: 25px; border-radius: 8px; margin: 30px 0;">
-  <h3><a href="{% post_url 2025-03-08-how-to-learn-ai-scratch %}" style="color: #333; text-decoration: none;">How to Develop Intuition for AI</a></h3>
-  <p style="color: #666; margin: 10px 0;">A comprehensive guide to developing intuition for AI through deliberate practice, covering both research and implementation skills.</p>
-  <p style="margin: 0;"><a href="/blog" style="color: #4facfe;">Read more posts →</a></p>
-</div>
 
 ## Get In Touch
 
@@ -91,9 +80,10 @@ Interested in collaboration, research, or just want to chat about AI? Feel free 
 
 <div style="text-align: center; margin: 40px 0;">
   <p style="font-size: 1.1em;">
-    📧 <a href="mailto:ericjm4@illinois.edu" style="color: #4facfe;">ericjm4@illinois.edu</a> | 
-    💼 <a href="https://linkedin.com/in/ericmodesitt" style="color: #4facfe;">LinkedIn</a> | 
-    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe;">GitHub</a>
+    📧 <a href="mailto:ericmodesitt89@gmail.com" style="color: #4facfe;">ericmodesitt89@gmail.com</a> | 
+    💼 <a href="https://www.linkedin.com/in/eric-modesitt/" style="color: #4facfe;">LinkedIn</a> | 
+    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe;">GitHub</a> | 
+    📚 <a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ" style="color: #4facfe;">Google Scholar</a>
   </p>
 </div>
 

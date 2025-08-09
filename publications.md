@@ -51,9 +51,8 @@ Recent advances in language modeling demonstrate the need for high-quality domai
 
 <div style="margin: 25px 0;">
 <a href="https://arxiv.org/abs/2412.14436" style="display: inline-block; background: #4facfe; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">📄 Read Paper</a>
-<a href="https://github.com/example/orbit" style="display: inline-block; background: #27ae60; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">💻 GitHub Code</a>
-<a href="#" style="display: inline-block; background: #1abc9c; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">🎯 Live Demo</a>
-<a href="https://huggingface.co/example/orbit-llama" style="display: inline-block; background: #16a085; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">🤗 Hugging Face</a>
+<a href="https://github.com/ModeEric/ORBIT-Llama" style="display: inline-block; background: #27ae60; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">💻 GitHub Code</a>
+<a href="https://huggingface.co/ericmofre23/ORBIT-Llama-3-8b" style="display: inline-block; background: #16a085; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">🤗 Hugging Face</a>
 </div>
 
 </div>
@@ -93,8 +92,7 @@ This work explores next-generation techniques in retrieval-augmented generation 
 
 <div style="margin: 25px 0;">
 <a href="#" style="display: inline-block; background: #00f2fe; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">📄 Workshop Paper</a>
-<a href="#" style="display: inline-block; background: #27ae60; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">💻 Code (Coming Soon)</a>
-<a href="#" style="display: inline-block; background: #1abc9c; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">🎯 Beta Demo</a>
+<a href="https://github.com/ModeEric/UIUC-RAGents-LiveRAG" style="display: inline-block; background: #27ae60; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">💻 Code</a>
 </div>
 
 </div>
@@ -221,7 +219,7 @@ If you find my work useful in your research, please consider citing:
 ## Academic Profiles & Networks
 
 <div style="text-align: center; margin: 40px 0;">
-<a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ&hl=en&oi=ao" style="display: inline-block; background: #4285f4; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📚 Google Scholar</a>
+<a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ" style="display: inline-block; background: #4285f4; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📚 Google Scholar</a>
 <a href="https://arxiv.org/search/?searchtype=author&query=Modesitt%2C+E" style="display: inline-block; background: #b31b1b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📄 arXiv</a>
 <a href="https://orcid.org/0009-0005-9247-1081" style="display: inline-block; background: #a6ce39; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">🆔 ORCID</a>
 <a href="https://dblp.org/search?q=eric+modesitt" style="display: inline-block; background: #ff6b35; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px;">📖 DBLP</a>

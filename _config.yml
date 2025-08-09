@@ -1,16 +1,23 @@
 # _config.yml
 
-title: "Eric Modesitt Blog"
-description: "Welcome to my blog"
+title: "Eric Modesitt"
+description: "AI Researcher & Engineer bridging academia and industry"
+email: "ericmodesitt89@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ModeEric.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: 
+github_username: ModeEric
+linkedin_username: eric-modesitt
+scholar_url: "https://scholar.google.com/citations?user=tCopwL8AAAAJ"
+permalink: pretty
+show_excerpts: false
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 markdown: kramdown
 kramdown:
   input: GFM
