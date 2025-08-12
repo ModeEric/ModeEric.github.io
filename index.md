@@ -1,12 +1,13 @@
 ---
 layout: home
 title: "Eric Modesitt"
+description: "Software + AI Engineer focused on learning efficiency, domain adaptation, and data-centric methods."
 ---
 
 <div class="hero-section">
-  <img class="hero-avatar" src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" loading="lazy" decoding="async">
+  <img class="hero-avatar" src="{{ '/assets/images/eric-profile.jpg' | relative_url }}" alt="Eric Modesitt" width="240" height="240" loading="lazy" decoding="async">
   <h1 class="hero-title">Eric Modesitt</h1>
-  <p class="hero-subtitle">SWE/AI Engineer</p>
+  <p class="hero-subtitle">Software + AI Engineer</p>
   <p class="hero-tagline">Currently interested in learning efficiency, domain adaptation, and dataset curation</p>
 </div>
 
@@ -15,13 +16,12 @@ title: "Eric Modesitt"
 <div class="grid grid-auto" style="margin: 40px 0;">
   <div class="panel">
     <h3>Publications</h3>
-    <p><strong>ACL Findings 2024</strong> - ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation</p>
-    <p><strong>SIGIR LiveRAG Workshop</strong> - TinyUPR: Budget Constrained Query Likelihood Reranking for
-the SIGIR 2025 LiveRAG Challenge</p>
+    <p><strong><a href="https://aclanthology.org/2025.findings-acl.51/" target="_blank" rel="noopener noreferrer">Findings of ACL 2025</a></strong> — ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation with an Astronomy Case Study</p>
+    <p><strong>SIGIR LiveRAG Workshop</strong> — TinyUPR: Budget-Constrained Query Likelihood Reranking for the SIGIR 2025 LiveRAG Challenge</p>
   </div>
   
   <div class="panel alt-1">
-    <h3>🎓 Academic Achievemnt</h3>
+    <h3>🎓 Academic Achievement</h3>
     <p><strong>University of Illinois Urbana-Champaign</strong></p>
     <p>Master of Computer Science (MCS)</p>
     <p>Bachelor of Science (BS)</p>
@@ -29,7 +29,7 @@ the SIGIR 2025 LiveRAG Challenge</p>
   
   <div class="panel alt-2">
     <h3>💼 Industry Impact</h3>
-    <p><strong>Capital One</strong> - Full time Software Engineer</p>
+    <p><strong>Capital One</strong> - Full-time Software Engineer</p>
     <p>To be updated!</p>
   </div>
 </div>
@@ -46,32 +46,34 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
 
 ## Quick Navigation
 
+<nav aria-label="Quick Navigation">
 <div class="grid grid-auto-sm" style="margin: 40px 0;">
-  <a href="/publications" class="tile pub">
-    <h3 style="margin: 0 0 10px 0;">📄 Publications</h3>
+  <a href="{{ '/publications' | relative_url }}" class="tile pub">
+    <h3 style="margin: 0 0 10px 0;">Publications</h3>
     <p style="margin: 0; opacity: 0.9;">Research papers and findings</p>
   </a>
   
-  <a href="/research" class="tile research">
+  <a href="{{ '/research' | relative_url }}" class="tile research">
     <h3 style="margin: 0 0 10px 0;">🔬 Research</h3>
     <p style="margin: 0; opacity: 0.9;">Current projects and interests</p>
   </a>
   
-  <a href="/experience" class="tile exp">
+  <a href="{{ '/experience' | relative_url }}" class="tile exp">
     <h3 style="margin: 0 0 10px 0;">💼 Experience</h3>
     <p style="margin: 0; opacity: 0.9;">Professional journey</p>
   </a>
   
-  <a href="/projects" class="tile proj">
+  <a href="{{ '/projects' | relative_url }}" class="tile proj">
     <h3 style="margin: 0 0 10px 0;">⚡ Projects</h3>
     <p style="margin: 0; opacity: 0.9;">Technical implementations</p>
   </a>
   
-  <a href="/about" class="tile about">
+  <a href="{{ '/about' | relative_url }}" class="tile about">
     <h3 style="margin: 0 0 10px 0;">About</h3>
     <p style="margin: 0; opacity: 0.9;">More about me</p>
   </a>
 </div>
+</nav>
 
 
 
@@ -82,9 +84,9 @@ Interested in collaboration, research, or just want to chat about AI? Feel free 
 <div style="text-align: center; margin: 40px 0;">
   <p style="font-size: 1.1em;">
     📧 <a href="mailto:ericmodesitt89@gmail.com" style="color: #4facfe;">ericmodesitt89@gmail.com</a> | 
-    💼 <a href="https://www.linkedin.com/in/eric-modesitt/" style="color: #4facfe;">LinkedIn</a> | 
-    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe;">GitHub</a> | 
-    📚 <a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ" style="color: #4facfe;">Google Scholar</a>
+    💼 <a href="https://www.linkedin.com/in/eric-modesitt/" style="color: #4facfe;" target="_blank" rel="me noopener noreferrer">LinkedIn</a> | 
+    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe;" target="_blank" rel="me noopener noreferrer">GitHub</a> | 
+    📚 <a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ" style="color: #4facfe;" target="_blank" rel="noopener noreferrer">Google Scholar</a>
   </p>
 </div>
 

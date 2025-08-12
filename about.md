@@ -9,17 +9,15 @@ title: "About Me"
   <p style="font-size: 1.2em; color: #666;">AI Researcher & Software Engineer</p>
 </div>
 
-## Professional Journey
 
-My career represents the intersection of rigorous academic research and practical industry application. I believe the most impactful AI advances come from bridging these two worlds—understanding both the theoretical foundations and real-world implementation challenges.
+### Academic Foundation
+I earned both my **Bachelor of Science** and **Master of Computer Science** degrees from the **University of Illinois Urbana-Champaign**. During my time at UIUC, I developed a deep appreciation for efficient AI research, mainly due to my curiosity and ambition with regards to studying language and intelligence, combined with not having the same resources as frontier labs which produce state of the art results.
 
-### 🎓 Academic Foundation
-I earned both my **Bachelor of Science** and **Master of Computer Science** degrees from the **University of Illinois Urbana-Champaign**, one of the world's leading institutions for computer science research. During my time at UIUC, I developed a deep appreciation for both the theoretical underpinnings of AI and the practical challenges of implementing cutting-edge research.
+### Industry Impact
 
-### 💼 Industry Impact
-Currently, I work as a **Full-time Software Engineer at Capital One**, where I apply AI research principles to solve real-world financial technology challenges. This role allows me to see firsthand how academic research translates into products that impact millions of users, while also identifying gaps where further research is needed.
+I've been fortunate enough to have a wide variety of experiences with industry so far. With my time as a student, I had internships with GSoC in my freshman year, Mr. Cooper in my sophomore year, and Capital One in my junior year, leading to a full time offer. I also was involved with student run organizations that worked with startups on campus, such as Disrution Lab where I became a Project Manager and NeurotechX@UIUC where I was the Vice President. Currently, I work as a **Full-time Software Engineer at Capital One**. Please see my experience page for more info about each role.
 
-### 🔬 Research Excellence
+### Research Excellence
 My research has been published in top-tier venues including **ACL Findings** and the **SIGIR LiveRAG Workshop**. This work focuses on making AI systems more efficient and practical, particularly in domain-specific applications.
 
 ## Research Focus
