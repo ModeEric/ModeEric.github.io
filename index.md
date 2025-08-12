@@ -6,21 +6,22 @@ title: "Eric Modesitt"
 <div class="hero-section">
   <img class="hero-avatar" src="/assets/images/eric-profile.jpg" alt="Eric Modesitt" loading="lazy" decoding="async">
   <h1 class="hero-title">Eric Modesitt</h1>
-  <p class="hero-subtitle">AI Researcher & Engineer bridging academia and industry</p>
-  <p class="hero-tagline">Specialized in learning efficiency, domain adaptation, and dataset curation</p>
+  <p class="hero-subtitle">SWE/AI Engineer</p>
+  <p class="hero-tagline">Currently interested in learning efficiency, domain adaptation, and dataset curation</p>
 </div>
 
 ## Key Achievements
 
 <div class="grid grid-auto" style="margin: 40px 0;">
   <div class="panel">
-    <h3>📚 Published Researcher</h3>
+    <h3>Publications</h3>
     <p><strong>ACL Findings 2024</strong> - ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation</p>
-    <p><strong>SIGIR LiveRAG Workshop</strong> - Advanced retrieval-augmented generation research</p>
+    <p><strong>SIGIR LiveRAG Workshop</strong> - TinyUPR: Budget Constrained Query Likelihood Reranking for
+the SIGIR 2025 LiveRAG Challenge</p>
   </div>
   
   <div class="panel alt-1">
-    <h3>🎓 Academic Excellence</h3>
+    <h3>🎓 Academic Achievemnt</h3>
     <p><strong>University of Illinois Urbana-Champaign</strong></p>
     <p>Master of Computer Science (MCS)</p>
     <p>Bachelor of Science (BS)</p>
@@ -28,14 +29,14 @@ title: "Eric Modesitt"
   
   <div class="panel alt-2">
     <h3>💼 Industry Impact</h3>
-    <p><strong>Capital One</strong> - Full-time Software Engineer</p>
-    <p>Applying AI research to real-world financial technology solutions</p>
+    <p><strong>Capital One</strong> - Full time Software Engineer</p>
+    <p>To be updated!</p>
   </div>
 </div>
 
 ## Research Focus
 
-My work centers on **learning efficiency** - making AI systems learn more effectively from data, and helping humans learn more efficiently from AI. Current research areas include:
+My work centers mainly on **learning efficiency**, making AI systems learn more effectively from data, and ultimately helping humans learn more efficiently from AI. Current research areas include:
 
 - **Domain Adaptation**: Specializing general AI models for specific fields
 - **Dataset Curation**: Efficient methods for collecting high-quality training data
@@ -67,7 +68,7 @@ I'm fortunate to collaborate with distinguished researchers **Professor Chengxia
   </a>
   
   <a href="/about" class="tile about">
-    <h3 style="margin: 0 0 10px 0;">👋 About</h3>
+    <h3 style="margin: 0 0 10px 0;">About</h3>
     <p style="margin: 0; opacity: 0.9;">More about me</p>
   </a>
 </div>
