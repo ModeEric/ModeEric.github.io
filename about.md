@@ -1,10 +1,11 @@
 ---
 layout: page
 title: "About Me"
+description: "Software + AI Engineer focused on learning efficiency, domain adaptation, and data-centric methods."
 ---
 
 <div class="md" style="text-align: center; margin-bottom: 40px;">
-  <img src="/assets/images/eric-about.jpg" alt="Eric Modesitt" style="width: 250px; height: 250px; border-radius: 50%; border: 6px solid #4facfe; object-fit: cover; margin-bottom: 20px;" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/eric-about.jpg' | relative_url }}" alt="Eric Modesitt" width="250" height="250" style="width: 250px; height: 250px; border-radius: 50%; border: 6px solid #4facfe; object-fit: cover; margin-bottom: 20px;" loading="lazy" decoding="async">
   <h2>Eric Modesitt</h2>
   <p style="font-size: 1.2em; color: #666;">AI Researcher & Software Engineer</p>
 </div>
@@ -15,10 +16,9 @@ I earned both my **Bachelor of Science** and **Master of Computer Science** degr
 
 ### Industry Impact
 
-I've been fortunate enough to have a wide variety of experiences with industry so far. With my time as a student, I had internships with GSoC in my freshman year, Mr. Cooper in my sophomore year, and Capital One in my junior year, leading to a full time offer. I also was involved with student run organizations that worked with startups on campus, such as Disrution Lab where I became a Project Manager and NeurotechX@UIUC where I was the Vice President. Currently, I work as a **Full-time Software Engineer at Capital One**. Please see my experience page for more info about each role.
+I've been fortunate to work across startups and large companies. During school, I interned with [Google Summer of Code](https://summerofcode.withgoogle.com/), Mr. Cooper, and Capital One (which led to a full-time offer). I also contributed to student-led orgs like [Disruption Lab](https://disruptionlab.ai/) and [NeurotechX@UIUC](https://neurotechx.com/). I'm currently a **Full-time Software Engineer at Capital One**. See more on my [experience]({{ '/experience' | relative_url }}).
 
-### Research Excellence
-My research has been published in top-tier venues including **ACL Findings** and the **SIGIR LiveRAG Workshop**. This work focuses on making AI systems more efficient and practical, particularly in domain-specific applications.
+ 
 
 ## Research Focus
 
@@ -29,7 +29,7 @@ My research centers on a concept I call **"learning efficiency"** - this applies
 - **Dataset Curation**: What's the most cost-effective way to collect high-quality training data from noisy web sources?
 - **Large Language Models**: How can we optimize these powerful models for specific tasks without extensive retraining?
 
-My **ORBIT methodology**, published in ACL Findings, demonstrates how to curate massive, high-quality domain-specific datasets from noisy web sources. This work reduced dataset curation costs while improving model performance across multiple domains.
+My **ORBIT methodology**, published in Findings of ACL 2025 ([paper](https://aclanthology.org/2025.findings-acl.51/)), demonstrates how to curate massive, high-quality, domain-specific datasets from noisy web sources. This work reduced dataset curation costs while improving model performance across multiple domains.
 
 ### Human Learning Efficiency
 Beyond AI research, I'm fascinated by how humans can learn more effectively. This interest stems from my belief that understanding human learning can inform better AI training methods, and vice versa. I regularly write about deliberate practice, intuition building, and efficient learning strategies on my blog.
@@ -70,6 +70,10 @@ When not coding or researching, I'm often thinking about **learning efficiency**
 
 I also enjoy exploring the intersection of technology and society, particularly how AI advances can be made more accessible and beneficial to broader communities.
 
+## Hobbies
+
+- To be updated!
+
 ## Let's Connect
 
 I'm always interested in discussing:
@@ -84,9 +88,9 @@ I'm always interested in discussing:
     📧 <a href="mailto:ericmodesitt89@gmail.com" style="color: #4facfe; text-decoration: none;">ericmodesitt89@gmail.com</a>
   </p>
   <p style="margin: 5px 0;">
-    💼 <a href="https://www.linkedin.com/in/eric-modesitt/" style="color: #4facfe; text-decoration: none;">LinkedIn</a> | 
-    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe; text-decoration: none;">GitHub</a> | 
-    🎓 <a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ&hl=en&oi=ao" style="color: #4facfe; text-decoration: none;">Google Scholar</a>
+    💼 <a href="https://www.linkedin.com/in/eric-modesitt/" style="color: #4facfe; text-decoration: none;" target="_blank" rel="me noopener noreferrer">LinkedIn</a> | 
+    🐙 <a href="https://github.com/ModeEric" style="color: #4facfe; text-decoration: none;" target="_blank" rel="me noopener noreferrer">GitHub</a> | 
+    🎓 <a href="https://scholar.google.com/citations?user=tCopwL8AAAAJ&hl=en&oi=ao" style="color: #4facfe; text-decoration: none;" target="_blank" rel="noopener noreferrer">Google Scholar</a>
   </p>
 </div>
 
